@@ -2,7 +2,9 @@
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
 
-All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in qGIS. Maps resolution is adapted for mapping data on the scale of the whole world.  
+All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in qGIS. Maps resolution is adapted for mapping data on the scale of the whole world.
+
+Maps are in WGS 84 projection EPSG:4326. For now, a 2km shift in most places.   
 
 All contributions and amendments are absolutely welcome. When correcting, please make sure that boundaries in each file remain aligned. 
 
