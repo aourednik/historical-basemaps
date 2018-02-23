@@ -10,8 +10,11 @@ All contributions and amendments are absolutely welcome. When correcting, please
 
 When using the data, keep in mind that
 
-1. historical boundaries are even more disputed than contemporary ones, and that
-2. the actual concept of national boundary becomes meaningful, in Europe, only since the [Peace of Westphalia](https://en.wikipedia.org/wiki/Peace_of_Westphalia) (1648).
+1. historical boundaries are even more disputed than contemporary ones, that
+2. the actual concept of territory and national boundary becomes meaningful, in Europe, only since the [Peace of Westphalia](https://en.wikipedia.org/wiki/Peace_of_Westphalia) (1648), and that
+3. areas of civilizations actually overlap, especially in ancient history .
+
+Overlapping areas are useally dealt with as topological errors in traditional GIS. Fuzzy borders are difficult to handle. Certainly a field to investigate...
 
 ## Credits
 
