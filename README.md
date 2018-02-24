@@ -1,5 +1,7 @@
 # Historical boundaries of world countries
 
+[logo]: world_bc2000.png "world bc 2000 DRAFT"
+
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
 
 All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in qGIS. Maps resolution is adapted for mapping data on the scale of the whole world.
