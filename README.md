@@ -21,7 +21,12 @@ Finally, note that overlapping areas are useally dealt with as topological error
 
 This project is a collection of basemaps collected, adpated and converted from diverse sources, sometimes only available through the wayback machine. Among these, anonymous students from the "ThinkQuest Team C006628".
 
-## Some (rare) resources on the web
+## Some (rare) GIS resources on the web
 
 * [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
+* [Interactive World History Atlas since 3000 BC](http://geacron.com/home-en/)
+
+## Other, non-GIS resources
+
+* [Wikimedia: Maps of the world showing history](https://commons.wikimedia.org/wiki/Category:Maps_of_the_world_showing_history)
