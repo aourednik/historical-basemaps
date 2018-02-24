@@ -1,4 +1,4 @@
-# Historical boundaries of world countries
+# Historical boundaries of world countries and cultural regions
 
 ![world bc 2000 DRAFT](world_bc2000.png)
 
