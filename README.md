@@ -6,15 +6,16 @@ All maps are stored in the geojson format: single file per feature layer, human 
 
 Maps are in WGS 84 projection EPSG:4326. For now, a 2km shift in most places.
 
-All contributions and amendments are absolutely welcome. When correcting, please make sure that boundaries in each file remain aligned.
+When correcting individual geojson files, please make sure that boundaries remain aligned over all files. The multilayer topological editing tool in QGIS 3 might help you with that.
 
 When using the data, keep in mind that
 
 1. historical boundaries are even more disputed than contemporary ones, that
-2. the actual concept of territory and national boundary becomes meaningful, in Europe, only since the [Peace of Westphalia](https://en.wikipedia.org/wiki/Peace_of_Westphalia) (1648), and that
-3. areas of civilizations actually overlap, especially in ancient history .
+2. the actual concept of territory and national boundary becomes meaningful, in Europe, only since the [Peace of Westphalia](https://en.wikipedia.org/wiki/Peace_of_Westphalia) (1648), that
+3. areas of civilizations actually overlap, especially in ancient history, and that
+4. overlaying these ancient vector maps on contemporary physical maps can be misleading; rivers, lakes, shorelines _do_ change very much over millenia; think for instance about the evolution of the [Aral sea](https://en.wikipedia.org/wiki/Aral_Sea) since the 1980s.
 
-Overlapping areas are useally dealt with as topological errors in traditional GIS. Fuzzy borders are difficult to handle. Certainly a field to investigate...
+Finally, note that overlapping areas are useally dealt with as topological errors in traditional GIS. Fuzzy borders are difficult to handle. Certainly a field to investigate...
 
 ## Credits
 
