@@ -1,6 +1,6 @@
 # Historical boundaries of world countries
 
-[logo]: world_bc2000.png "world bc 2000 DRAFT"
+![world bc 2000 DRAFT]: (world_bc2000.png)
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
 
