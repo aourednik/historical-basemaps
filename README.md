@@ -1,10 +1,10 @@
 # Historical boundaries of world countries and cultural regions
 
-![world bc 2000 DRAFT](world_bc2000.png)
+![world 1880 DRAFT](world1880.png)
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
 
-All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3). Geodata precision and generalization is adapted for mapping data on the scale of a continent or of the whole world.
+All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html)). Geodata precision and generalization is adapted for mapping data on the scale of a continent or of the whole world.
 
 When using the data, keep in mind that
 
