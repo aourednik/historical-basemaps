@@ -4,9 +4,7 @@
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
 
-All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in qGIS. Maps resolution is adapted for mapping data on the scale of the whole world.
-
-Maps are in WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). For now, a 20km global shift remains in some files and needs to be corrected.
+All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3). Geodata precision and generalization is adapted for mapping data on the scale of a continent or of the whole world.
 
 When using the data, keep in mind that
 
@@ -17,13 +15,17 @@ When using the data, keep in mind that
 
 Finally, note that overlapping areas are useally dealt with as topological errors in traditional GIS. Fuzzy borders are difficult to handle. Certainly a field to investigate...
 
+## Projection
+
+The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). Coordinates are in LatLon, the projection is geographical. For now, a 20km global shift remains in some files and needs to be corrected. Consider reprojecting for showing the maps on world scale, choosing a [projection with with minimal area distortion](https://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e). Most mapping software and algorithms reproject on the fly. 
+
 ## Contributing
 
 When correcting individual geojson files, please make sure that boundaries remain aligned over all files. The multilayer topological editing tool in QGIS 3 might help you with that. Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Credits
 
-This project started as a collection of basemaps collected, adpated and converted from diverse sources, sometimes only available through the wayback machine. Among these, anonymous students from the "ThinkQuest Team C006628".
+This project started as a collection of basemaps collected, adpated and converted from diverse sources, sometimes only available through the wayback machine. Among these sources, anonymous students from the "ThinkQuest Team C006628".
 
 ## Some (rare) GIS resources on the web
 
