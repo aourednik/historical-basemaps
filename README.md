@@ -6,9 +6,7 @@ This historical boundaries project aims at providing ready-to-use base maps for 
 
 All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in qGIS. Maps resolution is adapted for mapping data on the scale of the whole world.
 
-Maps are in WGS 84 projection EPSG:4326. For now, a 2km shift in most places.
-
-When correcting individual geojson files, please make sure that boundaries remain aligned over all files. The multilayer topological editing tool in QGIS 3 might help you with that.
+Maps are in WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). For now, a 20km global shift remains in some files and needs to be corrected.
 
 When using the data, keep in mind that
 
@@ -18,6 +16,10 @@ When using the data, keep in mind that
 4. overlaying these ancient vector maps on contemporary physical maps can be misleading; rivers, lakes, shorelines _do_ change very much over millenia; think for instance about the evolution of the [Aral sea](https://en.wikipedia.org/wiki/Aral_Sea) since the 1980s.
 
 Finally, note that overlapping areas are useally dealt with as topological errors in traditional GIS. Fuzzy borders are difficult to handle. Certainly a field to investigate...
+
+## Contributing
+
+When correcting individual geojson files, please make sure that boundaries remain aligned over all files. The multilayer topological editing tool in QGIS 3 might help you with that. Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Credits
 
