@@ -1,6 +1,6 @@
 # Historical boundaries of world countries and cultural regions
 
-![world 1880 DRAFT](world1880.png)
+![world 1880 DRAFT](world_1880.png)
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
 
@@ -17,7 +17,7 @@ Finally, note that overlapping areas are useally dealt with as topological error
 
 ## Projection
 
-The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). Coordinates are in LatLon, the projection is geographical. For now, a 20km global shift remains in some files and needs to be corrected. Consider reprojecting for showing the maps on world scale, choosing a [projection with with minimal area distortion](https://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e). Most mapping software and algorithms reproject on the fly. 
+The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). Coordinates are in LatLon, the projection is geographical. Consider reprojecting for showing the maps on world scale, choosing a [projection with with minimal area distortion](https://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e). Most mapping software and algorithms reproject on the fly.
 
 ## Contributing
 
