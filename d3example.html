@@ -17,14 +17,18 @@
   stroke-width: 0.5;
 }
 
-
 </style>
+<!-- 
+To run locally: 
+- In Firefox: disable strict origin control in about:cofig  
+- Launch Chrome with /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --user-data-dir
+-->
 <svg width="1400" height="1000"></svg>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://d3js.org/d3-geo-projection.v1.min.js"></script>
-<!-- <script src="https://d3js.org/topojson.v2.min.js"></script> -->
-<script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
-<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="d3/d3.v4.min.js"></script>
+<script src="d3/d3-geo-projection.v1.min.js"></script>
+<!-- <script src="d3/topojson.v2.min.js"></script> -->
+<script src="d3/d3-scale-chromatic.v0.3.min.js"></script>
+<script src="d3/queue.v1.min.js"></script>
 <script>
 
 var svg = d3.select("svg"),
@@ -53,7 +57,7 @@ var path = d3.geoPath()
 
 
 queue()
-	.defer(d3.json, 'world1880.geojson') 
+	.defer(d3.json, 'world_1880.geojson') 
 	.await(makeMyMap);
 
 function makeMyMap(error, states) {

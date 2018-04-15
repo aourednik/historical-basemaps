@@ -1,10 +1,10 @@
 # Historical boundaries of world countries and cultural regions
 
-![world 1880 DRAFT](world_1880.png)
+![world 1880 DRAFT](world_1880_dymaxion.png)
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
 
-All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html)). Geodata precision and generalization is adapted for mapping data on the scale of a continent or of the whole world.
+All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html) and [d3v5example.html](d3v5example.html)). Geodata precision and generalization is adapted for mapping data on the scale of a continent or of the whole world.
 
 When using the data, keep in mind that
 
@@ -17,7 +17,9 @@ Finally, note that overlapping areas are useally dealt with as topological error
 
 ## Projection
 
-The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). Coordinates are in LatLon, the projection is geographical. Consider reprojecting for showing the maps on world scale, choosing a [projection with with minimal area distortion](https://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e). Most mapping software and algorithms reproject on the fly.
+![world 1880 DRAFT](world_1880.png)
+
+The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). Coordinates are in LatLon, the projection is geographical. Consider reprojecting to show the maps on world scale, choosing a [projection with with minimal area distortion](https://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e), such as the __Dymaxion__ projection it the first example or the __Molweide__ projection.. Most mapping software and algorithms reproject on the fly.
 
 ## Contributing
 
@@ -27,7 +29,7 @@ When correcting individual geojson files, please make sure that boundaries remai
 
 This project started as a collection of basemaps collected, adpated and converted from diverse sources, sometimes only available through the wayback machine. Among these sources, anonymous students from the "ThinkQuest Team C006628".
 
-## Some (rare) GIS resources on the web
+## Some (rare) historical GIS resources on the web
 
 * [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
