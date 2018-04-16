@@ -28,7 +28,7 @@ To run locally:
 <svg width="1500" height="900"></svg>
 <script src="d3/d3.v5.min.js"></script>
 <script src="d3/d3-geo.v1.min.js"></script>
-<script src="d3/d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="d3/d3-geo-projection.v2.min.js"></script>
 <script src="d3/d3-geo-polygon.min.js"></script>
 <!-- <script src="d3/topojson.v2.min.js"></script> -->
 <script src="d3/d3-scale-chromatic.v0.3.min.js"></script>
@@ -39,7 +39,7 @@ var svg = d3.select("svg"),
     height = +svg.attr("height");
 
 var projection = 
-    // d3.geoPeirceQuincuncial() // the one we want but breaks topology
+    // d3.geoPeirceQuincuncial() // 
     // d3.geoGringortenQuincuncial()
     // d3.geoInterruptedMollweideHemispheres()
     // d3.geoAzimuthalEquidistant()
@@ -47,9 +47,9 @@ var projection =
     // d3.geoWiechel()
     // d3.geoPolyhedralWaterman()
     d3.geoAirocean()
-    // d3.geoSinuMollweide() // pas mal
-    // d3.geoNaturalEarth1() // bien
-    // d3.geoLoximuthal() // la meilleure
+    // d3.geoSinuMollweide() // 
+    // d3.geoNaturalEarth1() // 
+    // d3.geoLoximuthal() // 
     // d3.geoBonne() //
     // d3.geoBertin()
         .scale(90)

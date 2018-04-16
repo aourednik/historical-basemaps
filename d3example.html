@@ -36,17 +36,17 @@ var svg = d3.select("svg"),
     height = +svg.attr("height");
 
 var projection = 
-    // d3.geoPeirceQuincuncial() // the one we want but breaks topology
+    d3.geoPeirceQuincuncial() 
     // d3.geoGringortenQuincuncial()
     // d3.geoInterruptedMollweideHemispheres()
     // d3.geoAzimuthalEquidistant()
     // d3.geoInterruptedMollweideHemispheres()
     // d3.geoWiechel()
     // d3.geoPolyhedralWaterman()
-    d3.geoSinuMollweide() // pas mal
-    // d3.geoNaturalEarth1() // bien
-    // d3.geoLoximuthal() // la meilleure
-    // d3.geoBonne() //
+    // d3.geoSinuMollweide() 
+    // d3.geoNaturalEarth1() 
+    // d3.geoLoximuthal()  
+    // d3.geoBonne() 
     // d3.geoBertin()
         .scale(214)
         .translate([width / 2, height / 2])
