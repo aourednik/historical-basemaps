@@ -33,6 +33,7 @@ This project started as a collection of basemaps collected, adpated and converte
 
 * [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
+* [Ancient World Mapping Center at the University of orth Carolina](http://awmc.unc.edu/wordpress/map-files/)
 
 ## Other resources - non-GIS or GIS files non-downladable
 
