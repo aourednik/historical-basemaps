@@ -2,6 +2,11 @@
 <meta charset="utf-8">
 <style>
 
+svg {
+  display: block;
+  width: 1450px;
+  height: 900px;
+}
 
 .boundary {
   fill: none;
@@ -15,34 +20,26 @@
 }
 
 </style>
-<!-- 
-D3 v5 depeds on Fetch API that does not support local files fetching
-To run locally: 
-- run python -m SimpleHTTPServer from the folder and then call http://localhost:8000/ in navigator
-This might help in other cases of running js scripts locally, but should not be needed with this one:
-- In Firefox: disable strict origin control in about:cofig  
-- Launch Chrome with /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --user-data-dir
--->
-<svg width="1500" height="900"></svg>
+<svg id="svg"></svg>
+<!-- <script src="https://rawgit.com/pshihn/workly/master/dist/workly.min.js"></script>-->
 <script src="https://rawgit.com/pshihn/rough/master/dist/rough.min.js"></script>
 <script src="d3/d3.v5.min.js"></script>
 <script src="d3/d3-geo.v1.min.js"></script>
 <script src="d3/d3-geo-projection.v2.min.js"></script>
 <script src="d3/d3-geo-polygon.min.js"></script>
-<!-- <script src="d3/topojson.v2.min.js"></script> -->
 <script src="d3/d3-scale-chromatic.v0.3.min.js"></script>
 <script>
 
-// const svg = d3.select("svg");
 const svg = document.getElementById('svg');
 const rc = rough.svg(svg, {
   async: true,
   options: {
-	simplification: 0.2, roughness: 0.65
+	  simplification: 0.2, 
+    roughness: 0.65
   }
 });
-var width = +svg.attr("width");
-var height = +svg.attr("height");
+var width = 1500;
+var height = 900;
 
 var projection = 
     // d3.geoPeirceQuincuncial() // 
@@ -62,37 +59,33 @@ var projection =
         .translate([width / 2, height / 2])
         .precision(0.1);
 
-var path = d3.geoPath()
-  .projection(projection);
+var path = d3.geoPath().projection(projection);
   
+const randomColor = () => {
+  let r = `rgb(${Math.round(Math.random() * 255)}, ${Math.round(Math.random() * 255)}, ${Math.round(Math.random() * 255)})`;
+  return r;
+}
+const colors = d3.scaleOrdinal(d3.schemePaired);
 const randomAngle = () => {
   return (Math.random() > 0.5 ? -1 : 1) * (1 + Math.random() * 88);
 }
 
-d3.json('world_1880.geojson').then(
-    function makeMyMap(data,error) {
-        console.log(data);
-        if (error) throw error;
-
-            var colors = d3.scaleOrdinal(d3.schemePaired);
-            
-            svg.append("g")
-                .attr("class", "states")
-            .selectAll("path")
-                .data(data.features)
-                .enter().append("path")
-                .attr("d", path)
-                .attr("fill", function(d){
-                    console.log(d.properties.ABBREVNAME)
-                    if (d.properties.ABBREVNAME==="Antarctica") {return("white")}
-                    else if (d.properties.NAME==null | d.properties.NAME=='unclaimed') {return("grey")}
-                    else {
-                    return(colors(d.properties.NAME))
-                    //return(colors[Math.floor(Math.random() * colors.length)])
-                    }
-                })
-            ;
-            
+d3.json('world_1880.geojson').then(function(data,error) {
+    if (error) throw error;
+    for (let feature of data.features) {
+      rc.path(
+        path(feature),
+        {
+          fill: randomColor(),
+          fillStyle: '',
+          hachureAngle: randomAngle()
         }
+      ).then(function(s) {
+        svg.appendChild(s);
+      });
+
+    }
+  }
 );
+     
 </script>
