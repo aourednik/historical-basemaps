@@ -1,6 +1,6 @@
 # Contributing
 
-Many thanks for contributing with your historical knowledge. 
+Many thanks for contributing with your historical knowledge about ancient territories. 
 
 Suggested editor: [QGIS](https://qgis.org). Since version 3, QGIS can natively edit gejson, no coversion to shp needed.
 
