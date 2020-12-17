@@ -78,7 +78,8 @@ d3.json('world_1880.geojson').then(
                     if (d.properties.ABBREVNAME==="Antarctica") {return("white")}
                     else if (d.properties.NAME==null | d.properties.NAME=='unclaimed') {return("grey")}
                     else {
-                    return(colors(d.properties.NAME))
+                      
+                    return colors(d.properties.BORDER_COLOR_INDEX)
                     //return(colors[Math.floor(Math.random() * colors.length)])
                     }
                 })
