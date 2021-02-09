@@ -29,7 +29,9 @@ The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). 
 
 ## Contributing
 
-When correcting individual geojson files, please make sure that boundaries remain aligned over all files. The multilayer topological editing tool in QGIS 3 might help you with that. Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md)
+You are welcome to contribute by making your forks and filing pull requests. 
+
+When correcting the geometries of individual geojson files whose dates are close to each other, please make sure that boundaries remain aligned over all concerned files. This will allow others to make animations. The multilayer topological editing tool in QGIS 3 might help you with that. Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Credits
 
