@@ -2,7 +2,7 @@
 
 ![world 1880 DRAFT ROUGH](world_1880_dymaxion.png)
 
-This historical boundaries project aims at providing ready-to-use base maps for mapping historical data.
+This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. As a vast, epoch-specific historical knowledge is required to make these files more reliable, this project is open to all contributions. Please do not hesitate to fork this repository and file pull requests.
 
 All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html) written for D3v4 and [d3v5example.html](d3v5example.html) for D3v5, as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
 
