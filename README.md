@@ -8,7 +8,7 @@ All maps are stored in the geojson format: single file per feature layer, human 
 
 Geodata precision and generalization is adapted for mapping data on the scale of a continent or of the whole world.
 
-## Conceptual limitations
+## Conceptual limitations and disputed territories
 
 ![world 1880 DRAFT](world_1880_dymaxion_rough.png)
 
@@ -19,7 +19,10 @@ When using the data, keep in mind that
 3. areas of civilizations actually overlap, especially in ancient history, and that
 4. overlaying these ancient vector maps on contemporary physical maps can be misleading; rivers, lakes, shorelines _do_ change very much over millenia; think for instance about the evolution of the [Aral sea](https://en.wikipedia.org/wiki/Aral_Sea) since the 1980s.
 
-Finally, note that overlapping areas are useally dealt with as topological errors in traditional GIS. Fuzzy borders are difficult to handle. Certainly a field to investigate...
+When editing, please consider that the primary purpose of this repository is to facilitate mapping historical regions. There are, today, many examples of disputed territories. Contemporary India, for instance, has [territorial disputes with China, Pakistan and Nepal](https://en.wikipedia.org/wiki/List_of_disputed_territories_of_India). A solution could be to draw the borders of the India polygon as perceived / recognized by the Indian governement, leaving the polygons of the surrounding countrieds intact (i.e. as perceived by the governments of those countries). In this manner, overlaps could help to identify disputed regions. I hope such issues can be solved in a diplomatic manner, like they have been between India and Bangladesh in 2015 or India and Sri Lanka in 1974.
+
+Overlapping areas are useally dealt with as topological errors in traditional GIS, but some overlaps make sense in the case of this repository.
+Also, an interesting GIS question is how to map fuzzy borders of regions of decreasing inflience, as would apply to Antiquity. Certainly a field to investigate...
 
 ## Projection
 
