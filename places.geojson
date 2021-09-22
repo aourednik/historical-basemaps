@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "places",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "name": "Luxor", "inhabitedSince": -2150, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null }, "geometry": { "type": "Point", "coordinates": [ 32.650003106132701, 25.683701164470673, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "name": "Zanzibar", "inhabitedSince": 0, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null }, "geometry": { "type": "Point", "coordinates": [ 39.198856415151901, -6.165574339392415, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "name": "Cholula", "inhabitedSince": -200, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null }, "geometry": { "type": "Point", "coordinates": [ -98.306819754544307, 19.063045830303793, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "name": "Quito", "inhabitedSince": 980, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null }, "geometry": { "type": "Point", "coordinates": [ -78.513059479719345, -0.216585517398094, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "name": "Taxila", "inhabitedSince": -3360, "inhabitedUntil": null, "civilizations": "[{name:\"Pre-Indus Valley Civilization\",from:-3360,to:-2000}}]", "name_ancientGreek": null }, "geometry": { "type": "Point", "coordinates": [ 72.785167060236148, 33.745833, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "name": "Balkh", "inhabitedSince": -2000, "inhabitedUntil": null, "civilizations": "[{name:\"Bactria\",from:-2000,to:-1000}]", "name_ancientGreek": "Βάκτρα" }, "geometry": { "type": "Point", "coordinates": [ 66.896167060236152, 36.6893, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "name": "Jericho", "inhabitedSince": -10000, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null }, "geometry": { "type": "Point", "coordinates": [ 35.444167, 31.868778060236156, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "name": null, "inhabitedSince": null, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null }, "geometry": null },
+{ "type": "Feature", "properties": { "fid": 9, "name": "Argos", "inhabitedSince": -5000, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": "Ἄργος" }, "geometry": { "type": "Point", "coordinates": [ 22.717833469881924, 37.614334060236153, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "name": "Yanshi", "inhabitedSince": -1900, "inhabitedUntil": null, "civilizations": "[{name:\"Xia dynasty\"}]", "name_ancientGreek": null }, "geometry": { "type": "Point", "coordinates": [ 112.791166469881929, 34.727, 0.0 ] } }
+]
+}
