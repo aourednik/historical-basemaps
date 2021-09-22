@@ -10,6 +10,8 @@ The file called _places.geojson_ contains locations of cities and other settleme
 
 Geodata precision of polygone features in other files is adapted for mapping data on world/continent scale.
 
+![places](places.png)
+
 ## Conceptual limitations and disputed territories
 
 ![world 1880 DRAFT](world_1880_dymaxion_rough.png)
