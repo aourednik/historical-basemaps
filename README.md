@@ -34,11 +34,20 @@ The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). 
 
 ## Contributing
 
-You are welcome to contribute by making your forks and filing pull requests. 
+You are welcome to contribute by making your forks and filing pull requests.
+
+### Deontology
 
 When editing, please consider that the primary purpose of this repository is to facilitate mapping historical regions. There are, today, many examples of disputed territories. Contemporary India, for instance, has [territorial disputes with China, Pakistan and Nepal](https://en.wikipedia.org/wiki/List_of_disputed_territories_of_India). A solution could be to draw the borders of the India polygon as perceived / recognized by the Indian governement, leaving the polygons of the surrounding countrieds intact (i.e. as perceived by the governments of those countries). In this manner, overlaps could help to identify disputed regions. I hope such issues can be solved in a diplomatic manner, like they have been between India and Bangladesh in 2015 or India and Sri Lanka in 1974.
 
-When correcting the geometries of individual geojson files, please make sure that boundaries that have not moved between two or more successive files remain aligned. This will allow others to make animations. The multilayer topological editing tool in QGIS 3 might help you with that. Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md)
+### Practical aspects
+
+When correcting the geometries of individual geojson files, please make sure that:
+
+1. You don't introduce topological errors (gaps and overlaps, unless overlaps signify disputed borders). The QGIS plugin called _Digitizing Tools_ is particularly helpful to carve out a region out of an axisting polygon with the tool "Cut with selected polygons"...
+2. Boundaries that have not moved between two or more successive files remain aligned. This will allow others to make animations. The multilayer topological editing tool in QGIS 3 might help you with that. 
+
+Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Credits
 
