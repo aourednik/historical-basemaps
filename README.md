@@ -6,7 +6,9 @@ This historical boundaries project aims at providing ready-to-use base maps for 
 
 All maps are stored in the geojson format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html) written for D3v4 and [d3v5example.html](d3v5example.html) for D3v5, as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
 
-Geodata precision and generalization is adapted for mapping data on the scale of a continent or of the whole world.
+The file called _places.geojson_ contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered by the `inhabitedSince` and `inhabitedUntil` columns.
+
+Geodata precision of polygone features in other files is adapted for mapping data on world/continent scale.
 
 ## Conceptual limitations and disputed territories
 
