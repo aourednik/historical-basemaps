@@ -33,6 +33,7 @@
 { "type": "Feature", "properties": { "name": "Sydney", "inhabitedSince": 1788, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null, "name_anccientChinese": null }, "geometry": { "type": "Point", "coordinates": [ 151.204789330092012, -33.858672130293989, 0.0 ] } },
 { "type": "Feature", "properties": { "name": "Visby", "inhabitedSince": 900, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null, "name_anccientChinese": null }, "geometry": { "type": "Point", "coordinates": [ 18.281270296156375, 57.584378994881384, 0.0 ] } },
 { "type": "Feature", "properties": { "name": "Abingdon", "inhabitedSince": 676, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null, "name_anccientChinese": null }, "geometry": { "type": "Point", "coordinates": [ -1.28214341360863, 51.667067670711816, 0.0 ] } },
-{ "type": "Feature", "properties": { "name": "Derbent", "inhabitedSince": -800, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null, "name_anccientChinese": null }, "geometry": { "type": "Point", "coordinates": [ 48.3017594596039, 42.032929316970403, 0.0 ] } }
+{ "type": "Feature", "properties": { "name": "Derbent", "inhabitedSince": -800, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null, "name_anccientChinese": null }, "geometry": { "type": "Point", "coordinates": [ 48.3017594596039, 42.032929316970403, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "Monte Albán", "inhabitedSince": -500, "inhabitedUntil": null, "civilizations": null, "name_ancientGreek": null, "name_anccientChinese": null, "wikipedia": "https://en.wikipedia.org/wiki/Monte_Alb%C3%A1n" }, "geometry": { "type": "Point", "coordinates": [ -98.703214983458679, 17.478036885521835, 0.0 ] } }
 ]
 }

@@ -1,0 +1,55 @@
+---
+title: "GeoJSON to SVG"
+author: "André Ourednik"
+---
+
+# Info
+
+This is an R utility for batch converting geoJSON files to SVG.
+
+# Libraries
+
+```{r}
+# installation of sf needs gdal. Envetually, you need to run system("hombrew install gdal") before. 
+require(sf) # Combines sp, rgeos and rgdal functionality
+require(cartography)
+require(stringr)
+```
+
+```{r}
+geodatas <- list.files(pattern="world_.*geojson")
+for (i in 1:length(geodatas)) {
+  geofile <- geodatas[i]
+  geofilePure <- str_extract(geofile,"[^\\.]*")
+  year <- str_extract(geofilePure,"[^\\_]*$")
+  geodata <- st_read(geofile, quiet=TRUE)
+  geodata <- st_transform(geodata, "+proj=natearth2")
+  # plot(st_geometry(geodata_reproj))
+  svg(paste0(geofilePure,".svg"),width = 30, 20)
+  typoLayer(
+    x = geodata,
+    var = "NAME",
+    legend.pos = "n",
+    legend.values.cex = 0.5
+  )
+  labelLayer(
+    x = geodata, 
+    txt = "NAME", 
+    col= "black",
+    cex=0.5
+  )
+  layoutLayer(
+    title = paste0("The World in ",year), 
+    sources = "Historical Boundaries of World Countries and Cultural Regions. https://github.com/aourednik/historical-basemaps", 
+    author = "GitHub contributors & André Ourednik, 2021",
+    north = FALSE
+  )
+  dev.off()
+}
+```
+
+
+# Documentation
+
+* [cartographie avec R](https://rcarto.github.io/carto_avec_r/)
+* [projections avec PROJ](https://proj.org/operations/projections/)
