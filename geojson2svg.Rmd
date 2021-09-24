@@ -14,15 +14,16 @@ This is an R utility for batch converting geoJSON files to SVG.
 require(sf) # Combines sp, rgeos and rgdal functionality
 require(cartography)
 require(stringr)
+basedir <- dirname(rstudioapi::getActiveDocumentContext()$path)
 ```
 
 ```{r}
-geodatas <- list.files(pattern="world_.*geojson")
+geodatas <- list.files(basedir,pattern="world_.*geojson")
 for (i in 1:length(geodatas)) {
   geofile <- geodatas[i]
   geofilePure <- str_extract(geofile,"[^\\.]*")
   year <- str_extract(geofilePure,"[^\\_]*$")
-  geodata <- st_read(geofile, quiet=TRUE)
+  geodata <- st_read(file.path(basedir,geofile), quiet=TRUE)
   geodata <- st_transform(geodata, "+proj=natearth2")
   # plot(st_geometry(geodata_reproj))
   svg(paste0(geofilePure,".svg"),width = 30, 20)
