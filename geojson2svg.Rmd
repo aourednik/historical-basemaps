@@ -26,7 +26,7 @@ for (i in 1:length(geodatas)) {
   geodata <- st_read(file.path(basedir,geofile), quiet=TRUE)
   geodata <- st_transform(geodata, "+proj=natearth2")
   # plot(st_geometry(geodata_reproj))
-  svg(paste0(geofilePure,".svg"),width = 30, 20)
+  svg(file.path(basedir,paste0(geofilePure,".svg")),width = 30, 20)
   typoLayer(
     x = geodata,
     var = "NAME",
