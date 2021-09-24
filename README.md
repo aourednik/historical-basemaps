@@ -67,6 +67,7 @@ This project started as a collection of basemaps collected, adpated and converte
 * [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
 * [Ancient World Mapping Center at the University of orth Carolina](http://awmc.unc.edu/wordpress/map-files/)
 * [Geacron.com](http://geacron.com). A nice tool, but commercial, with no possibility to extract polygons for use in a GIS.
+* [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for ancient 
 
 ## Other resources - non-GIS or GIS files non-downladable
 
