@@ -6,7 +6,7 @@ This historical boundaries project aims at providing ready-to-use base maps for 
 
 ## GeoJSON
 
-All maps are stored in the _geojson_ format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html) written for D3v4 and [d3v5example.html](d3v5example.html) for D3v5, as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
+All maps are stored in the _geojson_ format in the /geojson/ folder: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html) written for D3v4 and [d3v5example.html](d3v5example.html) for D3v5, as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
 
 The file called _places.geojson_ contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered by the `inhabitedSince` and `inhabitedUntil` columns.
 
@@ -16,7 +16,7 @@ Geodata precision of polygone features in other files is adapted for mapping dat
 
 ## SVG
 
-The SVG maps are the result of a conversion of GeoJSON files with the R sript _geojson2svg.Rmd_. The script uses a "Natural Earth" projection.
+The SVG maps (/svg/ folder) are the result of a conversion of GeoJSON files with the R sript _geojson2svg.Rmd_. The script uses a "Natural Earth" projection.
 
 Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS non-savy users. If you contribute to this Git repository, please edit directly the GeoJSON files.
 
@@ -67,7 +67,7 @@ This project started as a collection of basemaps collected, adpated and converte
 * [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
 * [Ancient World Mapping Center at the University of orth Carolina](http://awmc.unc.edu/wordpress/map-files/)
 * [Geacron.com](http://geacron.com). A nice tool, but commercial, with no possibility to extract polygons for use in a GIS.
-* [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for ancient 
+* [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for the prehistory of the Homo species.
 
 ## Other resources - non-GIS or GIS files non-downladable
 

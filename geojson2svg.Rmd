@@ -18,15 +18,15 @@ basedir <- dirname(rstudioapi::getActiveDocumentContext()$path)
 ```
 
 ```{r}
-geodatas <- list.files(basedir,pattern="world_.*geojson")
+geodatas <- list.files(file.path(basedir,"geojson"),pattern="world_.*geojson")
 for (i in 1:length(geodatas)) {
   geofile <- geodatas[i]
   geofilePure <- str_extract(geofile,"[^\\.]*")
   year <- str_extract(geofilePure,"[^\\_]*$")
-  geodata <- st_read(file.path(basedir,geofile), quiet=TRUE)
+  geodata <- st_read(file.path(basedir,"geojson",geofile), quiet=TRUE)
   geodata <- st_transform(geodata, "+proj=natearth2")
   # plot(st_geometry(geodata_reproj))
-  svg(file.path(basedir,paste0(geofilePure,".svg")),width = 30, 20)
+  svg(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, 20)
   typoLayer(
     x = geodata,
     var = "NAME",
