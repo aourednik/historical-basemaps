@@ -13,39 +13,69 @@ This is an R utility for batch converting geoJSON files to SVG.
 # installation of sf needs gdal. Envetually, you need to run system("hombrew install gdal") before. 
 require(sf) # Combines sp, rgeos and rgdal functionality
 require(cartography)
+require(ggplot2)
+require(ggrepel)
 require(stringr)
 basedir <- dirname(rstudioapi::getActiveDocumentContext()$path)
 ```
 
 ```{r}
-geodatas <- list.files(file.path(basedir,"geojson"),pattern="world_.*geojson")
+geodatas <- list.files(file.path(basedir,"geojson"),pattern="world_.*geojson") 
+# i <- 1
 for (i in 1:length(geodatas)) {
   geofile <- geodatas[i]
   geofilePure <- str_extract(geofile,"[^\\.]*")
   year <- str_extract(geofilePure,"[^\\_]*$")
   geodata <- st_read(file.path(basedir,"geojson",geofile), quiet=TRUE)
   geodata <- st_transform(geodata, "+proj=natearth2")
-  # plot(st_geometry(geodata_reproj))
-  svg(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, 20)
-  typoLayer(
-    x = geodata,
-    var = "NAME",
-    legend.pos = "n",
-    legend.values.cex = 0.5
-  )
-  labelLayer(
-    x = geodata, 
-    txt = "NAME", 
-    col= "black",
-    cex=0.5
-  )
-  layoutLayer(
-    title = paste0("The World in ",year), 
-    sources = "Historical Boundaries of World Countries and Cultural Regions. https://github.com/aourednik/historical-basemaps", 
-    author = "GitHub contributors & André Ourednik, 2021",
-    north = FALSE
-  )
-  dev.off()
+  # plot(st_geometry(geodata))
+  # plot(geodata["NAME"])
+  ggplot(data = geodata) + 
+      geom_sf(aes(fill = NAME)) +
+      # geom_sf_text(aes(label=NAME),size=0.5) +
+      ggrepel::geom_text_repel(
+        data = geodata,
+        aes(label = NAME, geometry = geometry),
+        stat = "sf_coordinates",
+        min.segment.length = 0.2, # skip drawing segments shorter than this
+        max.overlaps = 20,
+        arrow = arrow(length = unit(0.05, 'cm'), type = 'closed'),
+        segment.color = 'grey',
+        size = 2
+      ) +
+      theme(legend.position="none") +
+      labs(
+        title=paste0("The World in ",year),
+        subtitle= "Historical Boundaries of World Countries and Cultural Regions. (work in progress) https://github.com/aourednik/historical-basemaps",
+        x = element_blank(), 
+        y = element_blank(),
+        caption = "André Ourednik & GitHub contributors, 2021"
+      )
+  ggsave(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, height=20) # needs svglite
+  # tryCatch({
+    # svg(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, 20)
+    # typoLayer(
+    #   x = geodata,
+    #   var = "NAME",
+    #   legend.pos = "n",
+    #   legend.values.cex = 0.4
+    # )
+    # labelLayer(
+    #   x = geodata, 
+    #   txt = "NAME", 
+    #   col= "black",
+    #   cex=0.3,
+    #   overlap=TRUE,
+    #   show.lines = FALSE # connects lines to labels
+    # )
+    # layoutLayer(
+    #   title = paste0("The World in ",year), 
+    #   sources = "Historical Boundaries of World Countries and Cultural Regions. https://github.com/aourednik/historical-basemaps", 
+    #   author = "GitHub contributors & André Ourednik, 2021",
+    #   north = FALSE
+    # )
+    # dev.off()
+  #}, error=function(e){print(paste(geofile,e))})
 }
 ```
 
