@@ -68,6 +68,8 @@ This project started as a collection of basemaps collected, adpated and converte
 * [Ancient World Mapping Center at the University of orth Carolina](http://awmc.unc.edu/wordpress/map-files/)
 * [Geacron.com](http://geacron.com). A nice tool, but commercial, with no possibility to extract polygons for use in a GIS.
 * [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for the prehistory of the Homo species.
+* [Old Maps Online](https://www.oldmapsonline.org/en/Hokkaido).
+* [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia.
 
 ## Other resources - non-GIS or GIS files non-downladable
 
