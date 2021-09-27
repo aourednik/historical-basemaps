@@ -22,12 +22,12 @@ svg {
 </style>
 <svg id="svg"></svg>
 <!-- <script src="https://rawgit.com/pshihn/workly/master/dist/workly.min.js"></script>-->
-<script src="https://rawgit.com/pshihn/rough/master/dist/rough.min.js"></script>
+<script src="d3/rough.js"></script>
 <script src="d3/d3.v5.min.js"></script>
 <script src="d3/d3-geo.v1.min.js"></script>
 <script src="d3/d3-geo-projection.v2.min.js"></script>
 <script src="d3/d3-geo-polygon.min.js"></script>
-<script src="d3/d3-scale-chromatic.v0.3.min.js"></script>
+<script src="d3/d3-scale-chromatic.v3.js"></script>
 <script>
 
 const svg = document.getElementById('svg');
@@ -70,20 +70,22 @@ const randomAngle = () => {
   return (Math.random() > 0.5 ? -1 : 1) * (1 + Math.random() * 88);
 }
 
-d3.json('world_1880.geojson').then(function(data,error) {
+d3.json('geojson/world_1945.geojson').then(function(data,error) {
     if (error) throw error;
+    let categories = [...new Set(data.features.map(d => d.properties.SUBJECTO || d.properties.NAME))]; 
+    categories = categories.sort((a, b) => 0.5 - Math.random());
     for (let feature of data.features) {
-      rc.path(
+      let name = feature.properties.SUBJECTO || feature.properties.NAME;
+      let fpath = rc.path(
         path(feature),
         {
-          fill: randomColor(),
+          // fill: randomColor(),
+          fill: d3.interpolateWarm(categories.indexOf(name)/categories.length),
           fillStyle: '',
           hachureAngle: randomAngle()
         }
-      ).then(function(s) {
-        svg.appendChild(s);
-      });
-
+      )
+      svg.appendChild(fpath);
     }
   }
 );

@@ -32,7 +32,7 @@ This might help in other cases of running js scripts locally, but should not be 
 <script src="d3/d3-geo-projection.v2.min.js"></script>
 <script src="d3/d3-geo-polygon.min.js"></script>
 <!-- <script src="d3/topojson.v2.min.js"></script> -->
-<script src="d3/d3-scale-chromatic.v0.3.min.js"></script>
+<script src="d3/d3-scale-chromatic.v3.js"></script>
 <script>
 
 var svg = d3.select("svg"),
@@ -60,31 +60,30 @@ var projection =
 var path = d3.geoPath()
   .projection(projection);
 
-d3.json('world_1880.geojson').then(
+d3.json('geojson/world_1945.geojson').then(
     function makeMyMap(data,error) {
         console.log(data);
         if (error) throw error;
-
-            var colors = d3.scaleOrdinal(d3.schemePaired);
-            
-            svg.append("g")
-                .attr("class", "states")
-            .selectAll("path")
-                .data(data.features)
-                .enter().append("path")
-                .attr("d", path)
-                .attr("fill", function(d){
-                    console.log(d.properties.ABBREVNAME)
-                    if (d.properties.ABBREVNAME==="Antarctica") {return("white")}
-                    else if (d.properties.NAME==null | d.properties.NAME=='unclaimed') {return("grey")}
-                    else {
-                      
-                    return colors(d.properties.BORDER_COLOR_INDEX)
-                    //return(colors[Math.floor(Math.random() * colors.length)])
-                    }
-                })
-            ;
-            
-        }
+        let categories = [...new Set(data.features.map(d => d.properties.SUBJECTO || d.properties.NAME))]; 
+        categories = categories.sort((a, b) => 0.5 - Math.random());
+        // var colors = d3.scaleOrdinal(d3.schemePaired);  
+        svg.append("g")
+            .attr("class", "states")
+        .selectAll("path")
+            .data(data.features)
+            .enter().append("path")
+            .attr("d", path)
+            .attr("fill", function(d){
+                let name = d.properties.SUBJECTO || d.properties.NAME;
+                if (name==="Antarctica") {return "white"}
+                else if (name==null | name=='unclaimed') {return "grey"}
+                else { 
+                  return d3.interpolateWarm(categories.indexOf(name)/categories.length);
+                  // return colors(Math.floor(Math.random() * d3.schemePaired.length));
+                  // return colors(d.properties.BORDER_COLOR_INDEX) // The problem with topological coloring is that it ignores the new variable SUBJECTO
+                }
+            })
+        ;      
+    }
 );
 </script>
