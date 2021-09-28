@@ -2,7 +2,9 @@
 
 ![world 1880 DRAFT ROUGH](world_1880_dymaxion.png)
 
-This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. As a vast, epoch-specific historical knowledge is required to make these files more reliable, this project is open to all contributions. Please do not hesitate to fork this repository and file pull requests.
+This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. As a vast, epoch-specific historical knowledge is required to make these files more reliable, this project is open to all contributions. Please consider that this is __work in progress__. Do not hesitate to fork this repository, report issues, and file git pull requests.
+
+An [web app for exploring this data](https://historicborders.app/) has been created by Adam (GitHub user _ngrapple_).
 
 ## GeoJSON
 
