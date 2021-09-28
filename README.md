@@ -8,11 +8,11 @@ An [web app for exploring this data](https://historicborders.app/) has been crea
 
 ## GeoJSON
 
-All maps are stored in the _geojson_ format in the /geojson/ folder: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3example.html](d3example.html) written for D3v4 and [d3v5example.html](d3v5example.html) for D3v5, as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
+All maps are stored in the _geojson_ format in the /geojson/ folder: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](d3v5example.html) as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
 
 The file called _places.geojson_ contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered by the `inhabitedSince` and `inhabitedUntil` columns.
 
-Geodata precision of polygone features in other files is adapted for mapping data on world/continent scale.
+Geodata precision of polygon features in other files is adapted for mapping data on world/continent scale.
 
 ![places](places.png)
 
@@ -20,7 +20,7 @@ Geodata precision of polygone features in other files is adapted for mapping dat
 
 The SVG maps (/svg/ folder) are the result of a conversion of GeoJSON files with the R sript _geojson2svg.Rmd_. The script uses a "Natural Earth" projection.
 
-Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS non-savy users. If you contribute to this Git repository, please edit directly the GeoJSON files.
+Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS-unsavy users. If you contribute to this Git repository, please edit directly the GeoJSON files.
 
 ## Conceptual limitations and disputed territories
 
