@@ -12,7 +12,16 @@ All maps are stored in the _geojson_ format in the /geojson/ folder: single file
 
 Geocoding precision is adapted for mapping data on world/continent scale.
 
-The file called _places.geojson_ contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered by the `inhabitedSince` and `inhabitedUntil` columns.
+The following fields are available in every file:
+
+* __NAME__: the name of the country or region; ideal for text labels
+* __SUBJECTO__: the name of the colonial power exercicising authority on the country or region; the name of the region otherwise; ideal for choroplethe colors
+
+The file called _places.geojson_ contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered  time fields:
+
+* __name__: the toponym
+* __inhabitedSince__: inhabited since
+* __inhabitedUntil__: inhabited until, or NULL if it still is.
 
 ![places](img/places.png)
 
