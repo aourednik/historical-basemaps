@@ -10,9 +10,7 @@ An [web app for exploring this data](https://historicborders.app/) has been crea
 
 All maps are stored in the _geojson_ format in the /geojson/ folder: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](d3v5example.html) as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
 
-Geocoding precision is adapted for mapping data on world/continent scale.
-
-The following fields are available in every file:
+Geocoding precision is adapted for mapping data on world/continent scale. The following fields are available in every file:
 
 * __NAME__: the name of the country or region; ideal for text labels
 * __SUBJECTO__: the name of the colonial power exercicising authority on the country or region; the name of the region otherwise; ideal for choroplethe colors
@@ -76,12 +74,14 @@ This project started as a collection of basemaps collected, adpated and converte
 * [Wikimedia: Maps of the world showing history](https://commons.wikimedia.org/wiki/Category:Maps_of_the_world_showing_history)
 * [Interactive World History Atlas since 3000 BC](http://geacron.com/home-en/). The commercial version of the program allows you to see the timeline.
 
-## Spatial mutations in theory and fiction
+## Spatial mutations in theory and fiction published by the curator of this repository
 
-* [Ourednik, A. (2010) _L'habitant et la cohabitation dans les modèles de l'espace habité_ (2010), EPFL.](https://ourednik.info/essais.php?texte=phd) (PhD thesis, in French) - on the notion of codwelling in space and time. Central topic: changing spatial ontologies (_i.e._ the type and extent of things in space).
+* [Ourednik, A. (2019) _Hypertopie: de l'utopie à l'omniscience_, La Baconnière.](https://ourednik.info/en/textes/hypertopie) (essay, in French) - on the notion of _hypertopia_, comprising the "impossible here" of locallist utopias and the collapse of contemporary space into an infinite _hit et nunc_.
 
 * [Ourednik, A. (2014), _The impossible here_](https://www.espacestemps.net/articles/the-impossible-here/) (research paper) - "Grain upon grain, one by one, and one day, suddenly, there’s a heap, a little heap, the impossible heap."
 
-* [Ourednik, A. (2015) _Les cartes du boyard Kraïenski_](https://ourednik.info/fictions.php?texte=boyard-kraienski) (novel, in French) -  a cartographer sent to map the eastern border or the European Union gets lost in a fictive country somewhere between Ukraine and Bulgaria...
+* [Ourednik, A. (2015) _Les cartes du boyard Kraïenski_](https://ourednik.info/en/textes/boyard-kraienski) (novel, in French) -  a cartographer sent to map the eastern border or the European Union gets lost in a fictive country somewhere between Ukraine and Bulgaria...
+
+* [Ourednik, A. (2010) _L'habitant et la cohabitation dans les modèles de l'espace habité_ (2010), EPFL.](https://ourednik.info/essais.php?texte=phd) (PhD thesis, in French) - on the notion of codwelling in space and time. Central topic: changing spatial ontologies (_i.e._ the type and extent of things in space).
 
 If you edit the geojson maps and want to refer your own published work, please add here.
