@@ -19,6 +19,10 @@ require(stringr)
 require(magrittr)
 ```
 
+# COnvert new GeoJSON files to SVG
+
+This takes all geojson more recent than the most recent svg file and converts them
+
 ```{r}
 basedir <- dirname(rstudioapi::getActiveDocumentContext()$path)
 geodatas <- list.files(file.path(basedir,"geojson"),pattern="world_.*geojson") 

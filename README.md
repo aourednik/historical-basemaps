@@ -72,6 +72,7 @@ This project started as a collection of basemaps collected, adpated and converte
 * [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for the prehistory of the Homo species.
 * [Old Maps Online](https://www.oldmapsonline.org/en/Hokkaido).
 * [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia.
+* [Euratlas.net](https://www.euratlas.net/history/europe/)
 
 ## Other resources - non-GIS or GIS files non-downladable
 

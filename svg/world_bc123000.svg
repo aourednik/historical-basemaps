@@ -232,13 +232,13 @@
 <path d='M 1873.82 354.82 L 1873.72 354.70 L 1873.75 354.54 L 1873.76 354.50 L 1873.80 354.48 L 1873.85 354.47 L 1874.18 354.45 L 1874.23 354.45 L 1874.35 354.47 L 1874.61 354.54 L 1874.69 354.59 L 1874.75 354.64 L 1875.01 354.89 L 1875.10 354.98 L 1875.19 355.16 L 1875.21 355.20 L 1875.20 355.28 L 1875.11 355.33 L 1874.95 355.35 L 1874.78 355.34 L 1874.72 355.34 L 1874.60 355.31 L 1874.41 355.25 L 1874.26 355.18 L 1874.18 355.13 L 1874.04 355.02 L 1873.86 354.87 L 1873.82 354.82 Z' style='fill-rule: evenodd; fill: #7F7F7F; stroke-width: 1.07; stroke: #595959; stroke-linecap: butt;' />
 <line x1='1347.42' y1='471.33' x2='1344.24' y2='473.36' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1344.89,472.11 1344.24,473.36 1345.65,473.30 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1278.80' y1='713.71' x2='1281.90' y2='711.74' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1281.25,712.99 1281.90,711.74 1280.49,711.80 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1647.09' y1='593.34' x2='1650.31' y2='591.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1649.66,592.54 1650.31,591.28 1648.89,591.34 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1287.11' y1='708.42' x2='1283.88' y2='710.48' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1284.53,709.22 1283.88,710.48 1285.29,710.42 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1655.39' y1='588.04' x2='1652.28' y2='590.02' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1652.94,588.77 1652.28,590.02 1653.70,589.96 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
 <text x='1354.27' y='469.53' text-anchor='middle' style='font-size: 5.69px; font-family: Arial;' textLength='30.97px' lengthAdjust='spacingAndGlyphs'>Neanderthal</text>
-<text x='1272.08' y='719.60' text-anchor='middle' style='font-size: 5.69px; font-family: Arial;' textLength='56.57px' lengthAdjust='spacingAndGlyphs'>Homo heidelbergensis</text>
-<text x='1640.32' y='599.22' text-anchor='middle' style='font-size: 5.69px; font-family: Arial;' textLength='35.38px' lengthAdjust='spacingAndGlyphs'>Homo erectus</text>
+<text x='1293.98' y='706.62' text-anchor='middle' style='font-size: 5.69px; font-family: Arial;' textLength='56.57px' lengthAdjust='spacingAndGlyphs'>Homo heidelbergensis</text>
+<text x='1662.23' y='586.24' text-anchor='middle' style='font-size: 5.69px; font-family: Arial;' textLength='35.38px' lengthAdjust='spacingAndGlyphs'>Homo erectus</text>
 </g>
 <g clip-path='url(#cpMC4wMHwyMTYwLjAwfDAuMDB8MTQ0MC4wMA==)'>
 <text x='10.65' y='721.67' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='7.34px' lengthAdjust='spacingAndGlyphs'> 0</text>
