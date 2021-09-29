@@ -10,14 +10,14 @@ You'll find other [use examples with D3 and Leaflet](https://ourednik.info/histo
 
 ## GeoJSON
 
-All maps are stored in the [_geojson_](https://github.com/aourednik/historical-basemaps/tree/master/geojson) format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](d3v5example.html) as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)). [Integration in Leaflet](https://ourednik.info/historicalmaps/leafletExample), OpenLayers et al. is also easy to achieve.
+All maps are stored in the [_geojson_](https://github.com/aourednik/historical-basemaps/tree/master/geojson) format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](https://github.com/aourednik/historical-basemaps/tree/master/d3v5example.html) as well as [d3v5_roughjs_example.html](https://github.com/aourednik/historical-basemaps/tree/master/d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)). [Integration in Leaflet](https://ourednik.info/historicalmaps/leafletExample), OpenLayers et al. is also easy to achieve.
 
 Geocoding precision is adapted for mapping data on world/continent scale. The following fields are available in every file:
 
 * __NAME__: the name of the country or region; ideal for text labels
 * __SUBJECTO__: the name of the colonial power exercising authority on the country or region; the name of the region otherwise; ideal for choropleth colors
 
-The file called [_places.geojson_](places.geojson) contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered  time fields:
+The file called [_places.geojson_](https://github.com/aourednik/historical-basemaps/tree/master/places.geojson) contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered  time fields:
 
 * __name__: the toponym
 * __inhabitedSince__: inhabited since
@@ -27,7 +27,7 @@ The file called [_places.geojson_](places.geojson) contains locations of cities 
 
 ## SVG
 
-The [SVG maps](svg/) are the result of a conversion of GeoJSON files with the R script [_geojson2svg.Rmd_](geojson2svg.Rmd). The script uses a "Natural Earth" projection.
+The [SVG maps](https://github.com/aourednik/historical-basemaps/tree/master/svg/) are the result of a conversion of GeoJSON files with the R script [_geojson2svg.Rmd_](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd). The script uses a "Natural Earth" projection.
 
 Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS-unsavvy users. If you contribute to this Git repository, please edit directly the GeoJSON files.
 
