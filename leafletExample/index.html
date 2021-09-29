@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="css/leaflet.css">
+<link rel="stylesheet" href="css/qgis2web.css">
+<style>
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.label{text-align:center;}
+</style>
+<title>Historical Borders : an Example</title>
+</head>
+<body>                  
+<div id="map">
+</div>
+<script src="js/qgis2web_expressions.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/leaflet.rotatedMarker.js"></script>
+<script src="js/leaflet.pattern.js"></script>
+<script src="js/leaflet-hash.js"></script>
+<script src="js/Autolinker.min.js"></script>
+<script src="js/rbush.min.js"></script>
+<script src="js/labelgun.min.js"></script>
+<script src="js/labels.js"></script>
+<script src="js/leaflet.wms.js"></script>
+<script src="../lib/d3.v5.min.js"></script>
+<script>
+d3.json('../geojson/world_bc2000.geojson')
+    .then(function(data,error) {
+        console.log(data);
+        makeMap(data);
+    })
+    .then(function (){makeBlurFilter()})
+;
+
+var map, polygons;
+
+function makeMap(data){
+
+    map = L.map('map', {
+        zoomControl:true, maxZoom:28, minZoom:1
+    }).fitBounds([[-93.0414080258767,-111.06282314172664],[137.43642981196118,140.9371768582734]]);
+    var hash = new L.Hash(map);
+    map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> | <a href="https://github.com/aourednik/historical-basemaps" target="_blank">Historical Basemaps (GitHub)</a>');
+    var bounds_group = new L.featureGroup([]);
+    function setBounds() {}
+    var Stamen_TerrainBackground = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}{r}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 18,
+        ext: 'png'
+    });
+    map.addLayer(Stamen_TerrainBackground);
+
+    function featureInfo(feature, layer) {
+        var popupContent = '<table>';
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += `
+                <tr>
+                    <th scope="row">${key}</th>
+                    <td>${value !== null ? Autolinker.link(String(value)) : ""}</td>
+                </tr>
+            `;
+        } 
+        popupContent += '</table>';
+        layer.bindPopup(popupContent, {maxHeight: 400});
+        var label = L.marker(layer.getBounds().getCenter(), {
+            icon: L.divIcon({
+                className: 'label',
+                html: feature.properties.NAME,
+                iconSize: [100, 40]
+            })
+        }).addTo(map);
+    }
+
+    // COLORING
+    const colors = d3.scaleOrdinal(d3.schemePaired);
+    let categories = [...new Set(data.features.map(d => d.properties.SUBJECTO || d.properties.NAME))]; 
+    categories = categories.sort((a, b) => 0.5 - Math.random());
+    function featureStyle(feature) {
+        let name = feature.properties.SUBJECTO || feature.properties.NAME;
+        return {
+            pane: 'polygons',
+            opacity: 0,
+            color: 'white',
+            dashArray: '',
+            lineCap: 'butt',
+            lineJoin: 'miter',
+            weight: 1.0, 
+            filter:'ulr(#blur)', // does not work yet
+            fill: true,
+            fillOpacity: 0.5,
+            fillColor: d3.interpolateWarm(categories.indexOf(name)/categories.length),
+        }
+    }
+    map.createPane('polygons');
+    polygons = map.getPane('polygons');
+    polygons.style.zIndex = 401;
+    polygons.style['mix-blend-mode'] = 'normal';
+
+    var layer_cntry2000bc_02_1 = new L.geoJson(data, {
+        attribution: '<a href=""></a>',
+        pane: 'polygons',
+        onEachFeature: featureInfo,
+        style: featureStyle,
+    });
+    bounds_group.addLayer(layer_cntry2000bc_02_1);
+    map.addLayer(layer_cntry2000bc_02_1);
+    setBounds();
+}   
+
+/** Making blury polgyons
+ * @see https://stackoverflow.com/questions/28235792/leaflet-polygon-with-fuzzy-outline
+*/
+function makeBlurFilter(){
+    // console.log(svg);
+    var svgFilter = document.createElementNS('http://www.w3.org/2000/svg', 'filter');
+    var svgBlur = document.createElementNS('http://www.w3.org/2000/svg', 'feGaussianBlur');
+    // Set ID attribute of filter
+    svgFilter.setAttribute('id', 'blur');
+    // Give room to blur to prevent clipping
+    svgFilter.setAttribute('x', '-100%');
+    svgFilter.setAttribute('y', '-100%');
+    svgFilter.setAttribute('width', '5000%');
+    svgFilter.setAttribute('height', '5000%');
+    // Set deviation attribute of blur
+    svgBlur.setAttribute('stdDeviation', 2);
+    // Append blur element to filter element 
+    svgFilter.appendChild(svgBlur);
+    // Append filter element to SVG element
+    let svg = document.getElementsByTagName('svg')[0];
+    svg.appendChild(svgFilter);
+    d3.selectAll("path").attr("filter","url(#blur)");
+}
+
+</script>
+</body>
+</html>

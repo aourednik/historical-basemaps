@@ -1,14 +1,16 @@
 # Historical boundaries of world countries and cultural regions
 
-![world 1880 DRAFT ROUGH](img/world_1880_dymaxion.png)
+![world 1880 DRAFT ROUGH](img/historicalmaps-leaflet.png)
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. As a vast, epoch-specific historical knowledge is required to make these files more reliable, this project is open to all contributions. Please consider that this is __work in progress__. Do not hesitate to fork this repository, report issues, and file git pull requests.
 
 An [web app for exploring this data](https://historicborders.app/) has been created by Adam (GitHub user _ngrapple_).
 
+You'll find other [use examples with D3 and Leaflet](https://ourednik.info/historicalmaps/) on ourednik.info.
+
 ## GeoJSON
 
-All maps are stored in the _geojson_ format in the /geojson/ folder: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](d3v5example.html) as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)).
+All maps are stored in the _geojson_ format in the /geojson/ folder: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](d3v5example.html) as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)). [Integration in Leaflet](https://ourednik.info/historicalmaps/leafletExample), OpenLayers et al. is also easy to achieve.
 
 Geocoding precision is adapted for mapping data on world/continent scale. The following fields are available in every file:
 
@@ -40,9 +42,13 @@ When using the data, keep in mind that
 3. areas of civilizations actually overlap, especially in ancient history, and that
 4. overlaying these ancient vector maps on contemporary physical maps can be misleading; rivers, lakes, shorelines _do_ change very much over millenia; think for instance about the evolution of the [Aral sea](https://en.wikipedia.org/wiki/Aral_Sea) since the 1980s.
 
-Overlapping areas are usually dealt with as topological errors in traditional GIS, but some overlaps make sense in the case of this repository. Notwithstanding epistemological and historiographic concerns, the pragramtic bottom line is: vetor GIS has points, polygons and lines. That's it. Nevetheless, _transparent layers (opacity < 100%)_ and _blur effects_ on rendering is a convenient way to deal with fuzzy borders of pre-modern societies.
+Overlapping areas are usually dealt with as topological errors in traditional GIS, but some overlaps make sense in the case of this repository. Notwithstanding epistemological and historiographic concerns, the pragramtic bottom line is: vetor GIS has points, polygons and lines. That's it. Nevetheless, _transparent layers (opacity < 100%)_ and _blur effects_ on rendering is a convenient way to deal with fuzzy borders of pre-modern societies.  
 
 ![Fuzzy borders](img/fuzzy-borders.png)
+
+Visual distinction between precise and approximate borders can also be achieved on the same map. See [this D3js example](https://ourednik.info/historicalmaps/d3v5_FuzzyAndExactBorders_example.html).
+
+![Fuzzy borders](img/historicBorders_fuzzyNonFuzzy.png)
 
 ## Projection
 

@@ -27,12 +27,11 @@ This might help in other cases of running js scripts locally, but should not be 
 - Launch Chrome with /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --user-data-dir
 -->
 <svg width="1500" height="900"></svg>
-<script src="d3/d3.v5.min.js"></script>
-<script src="d3/d3-geo.v1.min.js"></script>
-<script src="d3/d3-geo-projection.v2.min.js"></script>
-<script src="d3/d3-geo-polygon.min.js"></script>
-<!-- <script src="d3/topojson.v2.min.js"></script> -->
-<script src="d3/d3-scale-chromatic.v3.js"></script>
+<script src="lib/d3.v5.min.js"></script>
+<script src="lib/d3-geo.v1.min.js"></script>
+<script src="lib/d3-geo-projection.v2.min.js"></script>
+<script src="lib/d3-geo-polygon.min.js"></script>
+<script src="lib/d3-scale-chromatic.v3.js"></script>
 <script>
 
 var svg = d3.select("svg"),
@@ -73,17 +72,40 @@ d3.json('geojson/world_1945.geojson').then(
             .data(data.features)
             .enter().append("path")
             .attr("d", path)
-            .attr("fill", function(d){
+            .attr("fill", d => {
                 let name = d.properties.SUBJECTO || d.properties.NAME;
                 if (name==="Antarctica") {return "white"}
                 else if (name==null | name=='unclaimed') {return "grey"}
                 else { 
                   return d3.interpolateWarm(categories.indexOf(name)/categories.length);
-                  // return colors(Math.floor(Math.random() * d3.schemePaired.length));
-                  // return colors(d.properties.BORDER_COLOR_INDEX) // The problem with topological coloring is that it ignores the new variable SUBJECTO
                 }
             })
-        ;      
+            .attr('stroke-width', 0)
+            .attr("filter", () => Math.random() < 0.8 ? "url(#blur)" : "")
+        ;
+        makeBlurFilter();      
     }
 );
+
+function makeBlurFilter(){
+    var svgFilter = document.createElementNS('http://www.w3.org/2000/svg', 'filter');
+    // TODO : add glow. 
+    // BLUR
+    var svgBlur = document.createElementNS('http://www.w3.org/2000/svg', 'feGaussianBlur');
+    // Set ID attribute of filter
+    svgFilter.setAttribute('id', 'blur');
+    // Give room to blur to prevent clipping
+    svgFilter.setAttribute('x', '-100%');
+    svgFilter.setAttribute('y', '-100%');
+    svgFilter.setAttribute('width', '5000%');
+    svgFilter.setAttribute('height', '5000%');
+    // Set deviation attribute of blur
+    svgBlur.setAttribute('stdDeviation', 3);
+    // Append blur element to filter element 
+    svgFilter.appendChild(svgBlur);
+    // Append filter element to SVG element
+    let svg = document.getElementsByTagName('svg')[0];
+    svg.appendChild(svgFilter);
+}
+
 </script>
