@@ -42,7 +42,7 @@ When using the data, keep in mind that
 3. areas of civilizations actually overlap, especially in ancient history, and that
 4. overlaying these ancient vector maps on contemporary physical maps can be misleading; rivers, lakes, shorelines _do_ change very much over millennia; think for instance about the evolution of the [Aral Sea](https://en.wikipedia.org/wiki/Aral_Sea) since the 1980s.
 
-Overlapping areas are usually dealt with as topological errors in traditional GIS, but some overlaps make sense in the case of this repository. Notwithstanding epistemological and historiographical concerns, the pragmatic bottom line is: vector GIS has points, polygons and lines. That's it. Nevertheless, _transparent layers (opacity < 100%)_ and _blur effects_ on rendering is a convenient way to deal with fuzzy borders of pre-modern societies.  
+Overlapping areas are usually dealt with as topological errors in traditional GIS, but some overlaps make sense in the case of this repository. Notwithstanding epistemological and historiographical concerns, the pragmatic bottom line is: vector GIS has points, polygons and lines. That's it. Nevertheless, _transparent layers_ (opacity < 100%) and _blur effects_ on rendering is a convenient way to deal with fuzzy borders of pre-modern societies.  
 
 ![Fuzzy borders](img/fuzzy-borders.png)
 
