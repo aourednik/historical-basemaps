@@ -10,7 +10,7 @@ You'll find other [use examples with D3 and Leaflet](https://ourednik.info/histo
 
 ## GeoJSON
 
-All maps are stored in the [_geojson_](geosjson/) format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](d3v5example.html) as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)). [Integration in Leaflet](https://ourednik.info/historicalmaps/leafletExample), OpenLayers et al. is also easy to achieve.
+All maps are stored in the [_geojson_](historical-basemaps/tree/master/geojson) format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5example.html](d3v5example.html) as well as [d3v5_roughjs_example.html](d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)). [Integration in Leaflet](https://ourednik.info/historicalmaps/leafletExample), OpenLayers et al. is also easy to achieve.
 
 Geocoding precision is adapted for mapping data on world/continent scale. The following fields are available in every file:
 
