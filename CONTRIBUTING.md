@@ -1,11 +1,16 @@
 # Contributing
 
-Many thanks for contributing with your historical knowledge about ancient territories.
-You are welcome to contribute by making your forks and filing pull requests.
+You are welcome to contribute by making your git forks and filing git pull requests.
 
 ## Tools and technicities
 
-Suggested editor: [QGIS](https://qgis.org). Since version 3, QGIS can natively edit gejson, no conversion to shp needed.
+### Suggested editor: QGIS
+
+Since version 3, [QGIS](https://qgis.org) can natively edit gejson. This is especially helpful for making quick fixes. For heavier edditing, geojson support remains suboptimal: slow and bug-prone. In this case, I suggest converting geojson to geopackage, make edits and and to reexport them to geojson. __Do not use ESRI shape files as an interemediary editing format, as this would kill UTF-8 Unicode data !__ (all ë à è and ø would become ÂÃƒâ€šÃ)
+
+A good introduction to advanced editing in QGIS can be found in [this video by Klas Karlsson](https://www.youtube.com/watch?v=jZYKGrIyVCA).
+
+### Projection
 
 Maps are in WGS 84 geographic projection EPSG:4326. Coordinates are recorded in LatLon. Some show a 20 km shift. This must yet be corrected.
 
