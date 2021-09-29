@@ -2,7 +2,7 @@
 
 ![world 1880 DRAFT ROUGH](img/historicalmaps-leaflet.png)
 
-This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. As a vast, epoch-specific historical knowledge is required to make these files more reliable, this project is open to all contributions. Please consider that this is __work in progress__. Do not hesitate to fork this repository, report issues, and file [git pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md).
+This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. As a vast, epoch-specific historical knowledge is required to make these files more reliable, this project is open to all contributions. Please consider that this is __work in progress__. Do not hesitate to fork this repository, report issues, and file git pull requests. Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 A [web app for exploring this data](https://historicborders.app/) has been created by Adam (GitHub user _ngrapple_).
 
