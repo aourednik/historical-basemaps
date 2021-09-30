@@ -1,12 +1,14 @@
 # Contributing
 
+![world 1880 DRAFT](img/world_1880_dymaxion_rough.png)
+
 You are welcome to contribute by making your [git forks](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) and filing [git pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 ## Tools and technicities
 
 ### Suggested editor: QGIS
 
-Since version 3, [QGIS](https://qgis.org) can natively edit gejson. This is especially helpful for making quick fixes. For heavier edditing, geojson support remains suboptimal: slow and bug-prone. In this case, I suggest converting geojson to geopackage, make edits and and to reexport them to geojson. __Do not use ESRI shape files as an interemediary editing format, as this would kill UTF-8 Unicode data !__ (all ë à è and ø would become ÂÃƒâ€šÃ)
+Since version 3, [QGIS](https://qgis.org) can natively edit gejson. This is especially helpful for making quick fixes. For heavier edditing, geojson support remains suboptimal: slow and bug-prone. In this case, I suggest converting geojson to geopackage, make edits and to reexport them to geojson. __Do not use ESRI shape files as an interemediary editing format, as this would kill UTF-8 Unicode data !__ (all ë à è and ø would become ÂÃƒâ€šÃ)
 
 A good introduction to advanced editing in QGIS can be found in [this video by Klas Karlsson](https://www.youtube.com/watch?v=jZYKGrIyVCA).
 

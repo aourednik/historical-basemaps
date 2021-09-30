@@ -12,28 +12,34 @@ You'll find other [use examples with D3 and Leaflet](https://ourednik.info/histo
 
 All maps are stored in the [_geojson_](https://github.com/aourednik/historical-basemaps/tree/master/geojson) format: single file per feature layer, human and machine readable, easy to import in [qGIS](https://github.com/qgis/QGIS) or use in [D3](https://github.com/d3) (see [d3v5_example.html](https://github.com/aourednik/historical-basemaps/tree/master/d3v5_example.html) as well as [d3v5_roughjs_example.html](https://github.com/aourednik/historical-basemaps/tree/master/d3v5_roughjs_example.html) with the additional use of [rough.js](https://github.com/pshihn/rough)). [Integration in Leaflet](https://ourednik.info/historicalmaps/leafletExample), OpenLayers et al. is also easy to achieve.
 
-Geocoding precision is adapted for mapping data on world/continent scale. The following fields are available in every file:
+### Polygons
+
+Geocoding precision of multipolygons is adapted for mapping data on world/continent scale. The following fields are available in every file:
 
 * __NAME__: the name of the country or region; ideal for text labels
 * __SUBJECTO__: the name of the colonial power exercising authority on the country or region; the name of the region otherwise; ideal for choropleth colors
+* <span style="color:grey">__PARTOF__: (not yet implemented in most files) when a region is part of a larger cultural area, e.g. Czechs as part of the Slavic tribes.</span>
+*  <span style="color:grey">__BORDERPRECISION__ : (not yet implemented in most files) ordinal values 1, 2 and 3 standing for 'approximate', 'moderately precise', and 'determined by international law'. Ideal for handling approximate border with blur intensity or other visual effect.</span>
 
-The file called [_places.geojson_](https://github.com/aourednik/historical-basemaps/tree/master/places.geojson) contains locations of cities and other settlements. At this point, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used, it can be filtered  time fields:
+### Points
 
-* __name__: the toponym
-* __inhabitedSince__: inhabited since
-* __inhabitedUntil__: inhabited until, or NULL if it still is.
+The file called [_places.geojson_](https://github.com/aourednik/historical-basemaps/tree/master/places.geojson) contains locations of cities and other settlements. For now, it is only a draft and needs your help for completion. Places throughout history can be added to this single file. When used in visualisation software or code, it can be filtered by time fields:
+
+* __name__ {string}: the toponym <span style="color:grey">(it would be great to have this as nested JSON object, [as suggested here](https://github.com/qgis/QGIS/issues/45330), for places whose toponym changed over time, but this is not yet handled by standard GIS; for now, create distinct points with identical coordinate for each _inhabitedSince_ to _inhabitedUntil_ period)</span>
+* __inhabitedSince__ {integer}: inhabited since year
+* __inhabitedUntil__ {integer}: inhabited until year, or NULL if it still is.
 
 ![places](img/places.png)
 
 ## SVG
 
-The [SVG maps](https://github.com/aourednik/historical-basemaps/tree/master/svg/) are the result of a conversion of GeoJSON files with the R script [_geojson2svg.Rmd_](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd). The script uses a "Natural Earth" projection.
+The [maps in the Scalable Vector Graphics format](https://github.com/aourednik/historical-basemaps/tree/master/svg/) are the result of a conversion of GeoJSON files with the R script [_geojson2svg.Rmd_](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd). By default, the script uses a "Natural Earth" projection, which can be changed by using another [PROJ string](https://proj.org/operations/projections/) than `natearth2` in `st_transform(geodata, "+proj=natearth2")`.
 
-Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS-unsavvy users. If you contribute to this Git repository, please edit directly the GeoJSON files.
+Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS-unsavvy users. If you contribute to this Git repository, please edit directly - and only - the GeoJSON files.
+
+![SVG map](https://raw.githubusercontent.com/aourednik/historical-basemaps/master/svg/world_1938.svg)
 
 ## Conceptual limitations and disputed territories
-
-![world 1880 DRAFT](img/world_1880_dymaxion_rough.png)
 
 When using the data, keep in mind that
 
@@ -42,7 +48,7 @@ When using the data, keep in mind that
 3. areas of civilizations actually overlap, especially in ancient history, and that
 4. overlaying these ancient vector maps on contemporary physical maps can be misleading; rivers, lakes, shorelines _do_ change very much over millennia; think for instance about the evolution of the [Aral Sea](https://en.wikipedia.org/wiki/Aral_Sea) since the 1980s.
 
-Overlapping areas are usually dealt with as topological errors in traditional GIS, but some overlaps make sense in the case of this repository. Notwithstanding epistemological and historiographical concerns, the pragmatic bottom line is: vector GIS has points, polygons and lines. That's it. Nevertheless, _transparent layers_ (opacity < 100%) and _blur effects_ on rendering is a convenient way to deal with fuzzy borders of pre-modern societies.  
+Overlapping areas are usually dealt with as topological errors in traditional GIS, but some overlaps make sense in the case of this repository. Notwithstanding epistemological and historiographical concerns, the pragmatic bottom line is: vector GIS has points, polygons and lines. That's it. Nevertheless, when __redendering__, _transparent layers_ (opacity < 100%) and _blur effects_ is a convenient way to deal with fuzzy and overlapping borders of pre-modern societies.  
 
 ![Fuzzy borders](img/fuzzy-borders.png)
 
@@ -52,9 +58,11 @@ Visual distinction between precise and approximate borders can also be achieved 
 
 ## Projection
 
+The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). Coordinates are in LatLon, the projection is geographical. Consider reprojecting to show the maps on world scale, choosing a [projection with minimal area distortion](https://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e), such as the __Dymaxion__ (AirOcean) projection or the __Molweide__ projection. 
+
 ![world 1880 DRAFT](img/world_1880.png)
 
-The geodata are stored in the WGS 84 projection, EPSG:4326 (crs:OGC:1.3:CRS84). Coordinates are in LatLon, the projection is geographical. Consider reprojecting to show the maps on world scale, choosing a [projection with minimal area distortion](https://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e), such as the __Dymaxion__ (AirOcean) projection or the __Molweide__ projection. Most mapping software and algorithms reproject on the fly. Globe wrapping is also possible, [as illustrates ngrapples's app](https://historicborders.app/?view=globe):
+Most mapping software and algorithms reproject on the fly. Globe wrapping is also possible, [as illustrates ngrapples's app](https://historicborders.app/?view=globe):
 
 ![world 1880 DRAFT](img/historical-globe.png)
 
