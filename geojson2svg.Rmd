@@ -10,7 +10,7 @@ This is an R utility for batch converting geoJSON files to SVG.
 # Libraries
 
 ```{r}
-# installation of sf needs gdal. Envetually, you need to run system("hombrew install gdal") before. 
+# installation of sf needs gdal. Enventually, you need to run system("hombrew install gdal") before. 
 require(sf) # Combines sp, rgeos and rgdal functionality
 require(cartography)
 require(ggplot2)
