@@ -76,19 +76,18 @@ This project started as a collection of basemaps collected, adapted and converte
 
 ## Some (rare) historical GIS resources on the web
 
-* [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
-* [Ancient World Mapping Center at the University of North Carolina](http://awmc.unc.edu/wordpress/map-files/)
-* [Geacron.com](http://geacron.com). A nice tool, but commercial, with no possibility to extract polygons for use in a GIS.
-* [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for the prehistory of the Homo species.
+* [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [Old Maps Online](https://www.oldmapsonline.org/en/Hokkaido).
-* [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia.
-* [Euratlas.net](https://www.euratlas.net/history/europe/)
+* [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia. Contribbutions possible via a GIS interface but a bulk download unavailable.
 
 ## Other resources - non-GIS or GIS files non-downloadable
 
+* [Ancient World Mapping Center at the University of North Carolina](http://awmc.unc.edu/wordpress/map-files/)
+* [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for the prehistory of the Homo species.
+* [Euratlas.net](https://www.euratlas.net/history/europe/)
+* [Geacron.com](http://geacron.com). "Interactive World History Atlas since 3000 BC". A nice tool, but offering no possibility to extract polygons for use in a GIS. A commercial version of the program allows you to see the timeline.
 * [Wikimedia: Maps of the world showing history](https://commons.wikimedia.org/wiki/Category:Maps_of_the_world_showing_history)
-* [Interactive World History Atlas since 3000 BC](http://geacron.com/home-en/). The commercial version of the program allows you to see the timeline.
 
 ## Spatial mutations in theory and fiction published by the curator of this repository
 
