@@ -18,8 +18,8 @@ Geocoding precision of multipolygons is adapted for mapping data on world/contin
 
 * __NAME__: the name of the country or region; ideal for text labels
 * __SUBJECTO__: the name of the colonial power exercising authority on the country or region; the name of the region otherwise; ideal for choropleth colors
-* <span style="color:grey">__PARTOF__: (not yet implemented in most files) when a region is part of a larger cultural area, e.g. Czechs as part of the Slavic tribes.</span>
-*  <span style="color:grey">__BORDERPRECISION__ : (not yet implemented in most files) ordinal values 1, 2 and 3 standing for 'approximate', 'moderately precise', and 'determined by international law'. Ideal for handling approximate border with blur intensity or other visual effect.</span>
+* <span style="color:grey">__PARTOF__: when a region is part of a larger cultural area, e.g. Czechs as part of the Slavic tribes.</span>
+* <span style="color:grey">__BORDERPRECISION__ : ordinal values 1 (approximate), 2 (moderately precise) and 3 (determined by international law). Ideal for handling approximate border with blur intensity or other visual effect.</span>
 
 ### Points
 
