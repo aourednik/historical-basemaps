@@ -2,7 +2,9 @@
 
 ![world 1880 DRAFT ROUGH](img/historicalmaps-leaflet.png)
 
-This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. As a vast, epoch-specific historical knowledge is required to make these files more reliable, this project is open to all contributions. Please consider that this is __work in progress__. Do not hesitate to fork this repository, report issues, and file git pull requests. Further notes on contributing in [CONTRIBUTING.md](CONTRIBUTING.md).
+This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. It is __work in progress__: verify the maps by comparison to other sources before using in academic work. If you see errors, report them in the "issues" section.
+
+If you use the maps, think about giving back by [contributing](CONTRIBUTING.md).
 
 A [web app for exploring this data](https://historicborders.app/) has been created by Adam (GitHub user _ngrapple_).
 
@@ -74,19 +76,20 @@ You are welcome to contribute by making your forks and filing git pull requests.
 
 This project started as a collection of basemaps collected, adapted and converted from diverse sources, sometimes only available through the wayback machine. Among these sources, anonymous students from the "ThinkQuest Team C006628".
 
-## Some (rare) historical GIS resources on the web
+## Some (rare) historical georefernced resources on the web
 
 * [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
 * [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [Old Maps Online](https://www.oldmapsonline.org/en/Hokkaido).
 * [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia. Contribbutions possible via a GIS interface but a bulk download unavailable.
 
-## Other resources - non-GIS or GIS files non-downloadable
+## Other resources - not georeferenced or GIS files non-downloadable
 
+* [David Rumsey Map Collection](https://www.davidrumsey.com/): The most important historical maps repositoriy. Over 60000 ancient maps, some [reprojected on interactive globes](https://www.davidrumsey.com/view/interactive-globes).
 * [Ancient World Mapping Center at the University of North Carolina](http://awmc.unc.edu/wordpress/map-files/)
-* [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A very nice tool, for the prehistory of the Homo species.
-* [Euratlas.net](https://www.euratlas.net/history/europe/)
-* [Geacron.com](http://geacron.com). "Interactive World History Atlas since 3000 BC". A nice tool, but offering no possibility to extract polygons for use in a GIS. A commercial version of the program allows you to see the timeline.
+* [Atlas of Human Evolution](http://atlasofhumanevolution.com/). A nice tool for the prehistory of the Homo species. Takes into account also the evolution of sea levels.
+* [Euratlas.net](https://www.euratlas.net/history/europe/). Mostly reliable but very old technology.
+* [Geacron.com](http://geacron.com). "Interactive World History Atlas since 3000 BC". A nice tool, but offering no possibility to extract polygons for use in a GIS. A commercial version of the program allows you to see a timeline.
 * [Wikimedia: Maps of the world showing history](https://commons.wikimedia.org/wiki/Category:Maps_of_the_world_showing_history)
 
 ## Spatial mutations in theory and fiction published by the curator of this repository
