@@ -8,6 +8,8 @@ If you use these maps, think about giving back by contributing. This can be done
 - Reporting [issues](https://github.com/aourednik/historical-basemaps/issues)
 - Sending me an updated geojson file. ([my contact information](https://ourednik.info/contact.php)).
 
+Please edit only the geojson files. The svg files are produced by a [script](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd) from the goejson data: it is thus not worthwile editing them manually.
+
 ## Tools and technicalities
 
 ### Suggested editor: QGIS

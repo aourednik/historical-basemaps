@@ -37,7 +37,7 @@ The file called [_places.geojson_](https://github.com/aourednik/historical-basem
 
 The [maps in the Scalable Vector Graphics format](https://github.com/aourednik/historical-basemaps/tree/master/svg/) are the result of a conversion of GeoJSON files with the R script [_geojson2svg.Rmd_](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd). By default, the script uses a "Natural Earth" projection, which can be changed by using another [PROJ string](https://proj.org/operations/projections/) than `natearth2` in `st_transform(geodata, "+proj=natearth2")`.
 
-Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS-unsavvy users. If you contribute to this Git repository, please edit directly - and only - the GeoJSON files.
+Please see these SVG files only as raw material editable with a vector drawing software for the needs of GIS-unsavvy users. __If you contribute to this Git repository, please edit directly - and only - the GeoJSON files__.
 
 ![SVG map](https://raw.githubusercontent.com/aourednik/historical-basemaps/master/svg/world_1938.svg)
 
@@ -78,7 +78,7 @@ This project started as a collection of basemaps collected, adapted and converte
 
 ## Some (rare) historical georefernced resources on the web
 
-* [CShapes by Niels Weidman](http://nils.weidmann.ws/projects/cshapes.html), also available as an R package.
+* [CShapes by Niels Weidman](https://icr.ethz.ch/data/cshapes/), also available as an R package.
 * [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [Old Maps Online](https://www.oldmapsonline.org/en/Hokkaido).
 * [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia. Contribbutions possible via a GIS interface but a bulk download unavailable.
