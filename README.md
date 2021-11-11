@@ -81,7 +81,7 @@ This project started as a collection of basemaps collected, adapted and converte
 * [CShapes by Niels Weidman](https://icr.ethz.ch/data/cshapes/), also available as an R package.
 * [GIS data : historical country boundaries](https://www.gislounge.com/find-gis-data-historical-country-boundaries/)
 * [Old Maps Online](https://www.oldmapsonline.org/en/Hokkaido).
-* [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia. Contribbutions possible via a GIS interface but a bulk download unavailable.
+* [Native Land](https://native-land.ca). Contains notably maps of territorial conventions between colonizers and native populations in the Americas and Australia. User contributions possible via a GIS interface. These maps are also [available in GeoJSON format](https://native-land.ca/resources/api-docs/).
 
 ## Other resources - not georeferenced or GIS files non-downloadable
 
