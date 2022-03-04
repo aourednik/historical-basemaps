@@ -2,13 +2,15 @@
 
 ![world 1880 DRAFT ROUGH](img/historicalmaps-leaflet.png)
 
-> "For most of the past 5,000 years, kingdoms and #empires were exceptional islands of political hierarchy, surrounded by much larger territories whose inhabitants systematically avoided fixed, overarching systems of authority." - Graeber and Wengrow, 2021, (cited by W. Deresiewicz)
+> "For most of the past 5,000 years, kingdoms and #empires were exceptional islands of political hierarchy, surrounded by much larger territories whose inhabitants systematically avoided fixed, overarching systems of authority." - Graeber and Wengrow, 2021, _The Dawn of Everything_
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. It is __work in progress__: verify the maps by comparison to other sources before using in academic work. If you see errors, report them in the "issues" section.
 
 If you use the maps, think about giving back by [contributing](CONTRIBUTING.md).
 
 A [web app for exploring this data](https://historicborders.app/) has been created by Adam (GitHub user _ngrapple_).
+
+A [web app on ourednik.info](https://ourednik.info/historicalmaps/app.html) (aplha release) alows you to exlore the dataset in alternative map projections.
 
 You'll find other [use examples with D3 and Leaflet](https://ourednik.info/historicalmaps/) on ourednik.info.
 
