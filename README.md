@@ -2,7 +2,7 @@
 
 ![world 1880 DRAFT ROUGH](img/historicalmaps-leaflet.png)
 
-> "For most of the past 5,000 years, kingdoms and #empires were exceptional islands of political hierarchy, surrounded by much larger territories whose inhabitants systematically avoided fixed, overarching systems of authority." - Graeber and Wengrow, 2021, _The Dawn of Everything_
+> "For most of the past 5,000 years, kingdoms and empires were exceptional islands of political hierarchy, surrounded by much larger territories whose inhabitants systematically avoided fixed, overarching systems of authority." - Graeber and Wengrow, 2021, _The Dawn of Everything_
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. It is __work in progress__: verify the maps by comparison to other sources before using in academic work. If you see errors, report them in the "issues" section.
 
@@ -97,6 +97,8 @@ This project started as a collection of basemaps collected, adapted and converte
 * [Wikimedia: Maps of the world showing history](https://commons.wikimedia.org/wiki/Category:Maps_of_the_world_showing_history)
 
 ## Spatial mutations in theory and fiction published by the curator of this repository
+
+* [Ourednik, A. (2022) "The impossible territory and the maps of the boyar Kraiensky", in _Maps and Spaces_ (translation of "L’impossible territoire et les cartes du boyard Kraïenski" in GeoAgenda No. 4/2021.).](https://ourednik.info/maps/2022/04/27/the-impossible-territory-and-the-maps-of-the-boyar-kraiensky/) (research essay) - Unstable borders are a cartographer’s nightmare. The simple task of reporting on demographic changes quickly becomes a headache in a country whose municipalities merge, divide, and even change their spatial contours according to the projects of their inhabitants and councillors, who feel no pressing need of being aggregated on a national scale.
 
 * [Ourednik, A. (2019) _Hypertopie: de l'utopie à l'omniscience_, La Baconnière.](https://ourednik.info/en/textes/hypertopie) (essay, in French) - on the notion of _hypertopia_, comprising the "impossible here" of locallist utopias and the collapse of contemporary space into an infinite _hit et nunc_.
 
