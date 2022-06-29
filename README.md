@@ -8,9 +8,13 @@ This historical boundaries project aims at providing ready-to-use base maps for 
 
 If you use the maps, think about giving back by [contributing](CONTRIBUTING.md).
 
-A [web app for exploring this data](https://historicborders.app/) has been created by Adam (GitHub user _ngrapple_).
+## Apps
 
-A [web app on ourednik.info](https://ourednik.info/historicalmaps/app.html) (aplha release) alows you to exlore the dataset in alternative map projections.
+Several apps using the historical-basemaps dataset have been developped. A non-exhaustive list:
+
+- [Historic Borders](https://historicborders.app/): a web app with timeline, by Adam (GitHub user @ngrapple).
+- [Point in History](https://hanshack.com/point-in-history/): a web app to visualize the history of any point on the planet by Hans Hack.
+- A [web app on ourednik.info](https://ourednik.info/historicalmaps/app.html) (aplha release) alows you to exlore the dataset in alternative map projections.
 
 You'll find other [use examples with D3 and Leaflet](https://ourednik.info/historicalmaps/) on ourednik.info.
 
@@ -98,9 +102,9 @@ This project started as a collection of basemaps collected, adapted and converte
 
 ## Spatial mutations in theory and fiction published by the curator of this repository
 
-* [Ourednik, A. (2022) "The impossible territory and the maps of the boyar Kraiensky", in _Maps and Spaces_ (translation of "L’impossible territoire et les cartes du boyard Kraïenski" in GeoAgenda No. 4/2021.).](https://ourednik.info/maps/2022/04/27/the-impossible-territory-and-the-maps-of-the-boyar-kraiensky/) (research essay) - Unstable borders are a cartographer’s nightmare. The simple task of reporting on demographic changes quickly becomes a headache in a country whose municipalities merge, divide, and even change their spatial contours according to the projects of their inhabitants and councillors, who feel no pressing need of being aggregated on a national scale.
+* [Ourednik, A. (2022) "The impossible territory and the maps of the boyar Kraiensky", in _Maps and Spaces_ (translation of "L’impossible territoire et les cartes du boyard Kraïenski" in GeoAgenda No. 4/2021.).](https://ourednik.info/maps/2022/04/27/the-impossible-territory-and-the-maps-of-the-boyar-kraiensky/) (research essay) - Unstable borders are a cartographer’s nightmare. The simple task of reporting on demographic changes quickly becomes a headache in a country whose municipalities merge, divide, and even change their spatial contours according to the projects of their inhabitants and councilors, who feel no pressing need of being aggregated on a national scale.
 
-* [Ourednik, A. (2019) _Hypertopie: de l'utopie à l'omniscience_, La Baconnière.](https://ourednik.info/en/textes/hypertopie) (essay, in French) - on the notion of _hypertopia_, comprising the "impossible here" of locallist utopias and the collapse of contemporary space into an infinite _hit et nunc_.
+* [Ourednik, A. (2019) _Hypertopie: de l'utopie à l'omniscience_, La Baconnière.](https://ourednik.info/en/textes/hypertopie) (essay, in French) - on the notion of _hypertopia_, comprising the "impossible here" of identitarian utopias and the collapse of contemporary space into an infinite _hit et nunc_.
 
 * [Ourednik, A. (2014), _The impossible here_](https://www.espacestemps.net/articles/the-impossible-here/) (research paper) - "Grain upon grain, one by one, and one day, suddenly, there’s a heap, a little heap, the impossible heap."
 
