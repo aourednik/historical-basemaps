@@ -64,31 +64,7 @@ for (i in 1:length(geodatas)) {
           y = element_blank(),
           caption = "André Ourednik & GitHub contributors, 2021"
         )
-    ggsave(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, height=20) # needs svglite
-    # tryCatch({
-      # svg(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, 20)
-      # typoLayer(
-      #   x = geodata,
-      #   var = "NAME",
-      #   legend.pos = "n",
-      #   legend.values.cex = 0.4
-      # )
-      # labelLayer(
-      #   x = geodata, 
-      #   txt = "NAME", 
-      #   col= "black",
-      #   cex=0.3,
-      #   overlap=TRUE,
-      #   show.lines = FALSE # connects lines to labels
-      # )
-      # layoutLayer(
-      #   title = paste0("The World in ",year), 
-      #   sources = "Historical Boundaries of World Countries and Cultural Regions. https://github.com/aourednik/historical-basemaps", 
-      #   author = "GitHub contributors & André Ourednik, 2021",
-      #   north = FALSE
-      # )
-      # dev.off()
-    #}, error=function(e){print(paste(geofile,e))})
+    ggsave(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, height=20)
   }
 }
 ```
