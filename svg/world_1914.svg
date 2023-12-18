@@ -530,417 +530,424 @@
 <path d='M 151.15 811.04 L 151.13 811.29 L 151.00 811.26 L 150.92 811.24 L 150.72 811.23 L 150.67 811.23 L 150.56 811.24 L 150.33 811.26 L 150.00 811.24 L 149.34 811.15 L 148.53 810.99 L 147.66 810.35 L 147.63 810.33 L 147.61 810.30 L 147.58 810.26 L 147.53 810.14 L 147.52 810.09 L 147.53 810.06 L 147.55 810.03 L 147.67 809.87 L 147.68 809.86 L 148.30 809.65 L 148.42 809.64 L 148.76 809.65 L 149.19 809.81 L 149.95 810.12 L 151.02 810.80 L 151.04 810.82 L 151.12 810.91 L 151.14 810.95 L 151.15 811.00 L 151.15 811.04 Z' style='fill-rule: evenodd; fill: #EB69F0; stroke-width: 0.43; stroke: #595959; stroke-linecap: butt;' />
 <path d='M 145.85 807.55 L 146.29 808.05 L 146.43 808.24 L 146.51 808.38 L 146.72 808.80 L 146.73 808.85 L 146.74 808.89 L 146.65 809.64 L 146.63 809.65 L 146.57 809.66 L 146.43 809.65 L 146.39 809.64 L 146.36 809.62 L 145.64 809.55 L 145.17 809.65 L 145.14 809.65 L 145.03 809.65 L 144.97 809.64 L 144.93 809.63 L 144.89 809.61 L 144.62 809.38 L 144.51 809.21 L 143.82 808.46 L 143.44 808.14 L 143.41 808.11 L 143.28 807.97 L 143.23 807.90 L 143.22 807.86 L 143.22 807.83 L 143.22 807.82 L 143.23 807.77 L 143.26 807.74 L 143.32 807.71 L 143.34 807.70 L 143.40 807.69 L 143.43 807.70 L 143.48 807.73 L 143.88 807.76 L 144.19 807.70 L 144.42 807.62 L 144.81 807.51 L 145.25 807.40 L 145.41 807.38 L 145.48 807.39 L 145.69 807.44 L 145.73 807.45 L 145.77 807.47 L 145.83 807.52 L 145.85 807.55 Z' style='fill-rule: evenodd; fill: #EB69F0; stroke-width: 0.43; stroke: #595959; stroke-linecap: butt;' />
 <path d='M 504.13 896.90 L 503.90 897.01 L 503.73 897.00 L 503.67 897.02 L 503.42 897.19 L 503.30 897.29 L 503.25 897.35 L 503.17 897.34 L 503.15 897.32 L 503.13 897.29 L 503.12 897.21 L 503.12 897.17 L 503.14 896.73 L 503.14 896.69 L 503.15 896.63 L 503.17 896.58 L 503.22 896.47 L 503.24 896.46 L 503.34 896.44 L 503.37 896.44 L 504.18 896.65 L 504.21 896.68 L 504.22 896.72 L 504.22 896.76 L 504.21 896.82 L 504.16 896.88 L 504.13 896.90 Z' style='fill-rule: evenodd; fill: #A7A400; stroke-width: 0.43; stroke: #595959; stroke-linecap: butt;' />
-<line x1='1107.51' y1='397.31' x2='1110.93' y2='395.35' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<path d='M 1692.46 573.21 L 1692.93 572.96 L 1692.88 573.16 L 1692.94 573.69 L 1692.78 573.79 L 1692.57 573.66 L 1692.49 573.84 L 1692.32 573.76 L 1692.15 573.90 L 1691.96 573.79 L 1692.03 573.50 L 1692.21 573.29 L 1692.46 573.21 Z' style='fill-rule: evenodd; fill: #FF66A7; stroke-width: 0.43; stroke: #595959; stroke-linecap: butt;' />
+<path d='M 1692.61 571.86 L 1692.88 571.73 L 1693.28 571.52 L 1693.57 571.58 L 1694.05 571.57 L 1694.37 571.88 L 1694.76 572.33 L 1694.73 572.60 L 1694.53 573.41 L 1694.22 573.74 L 1694.26 573.85 L 1694.07 573.73 L 1694.03 573.93 L 1693.94 573.74 L 1693.61 574.07 L 1693.37 573.77 L 1693.47 573.53 L 1693.38 573.37 L 1693.55 573.23 L 1693.57 573.14 L 1693.46 573.02 L 1693.24 573.04 L 1693.11 572.83 L 1692.68 572.76 L 1692.36 572.79 L 1692.24 572.79 L 1692.06 572.53 L 1692.41 572.12 L 1692.69 571.93 L 1692.61 571.86 Z' style='fill-rule: evenodd; fill: #FF66A7; stroke-width: 0.43; stroke: #595959; stroke-linecap: butt;' />
+<line x1='1107.43' y1='397.36' x2='1110.93' y2='395.35' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1110.22,396.58 1110.93,395.35 1109.51,395.35 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1118.95' y1='416.12' x2='1122.44' y2='414.07' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1121.74,415.30 1122.44,414.07 1121.02,414.08 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1040.79' y1='369.94' x2='1044.28' y2='371.95' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1042.86,371.95 1044.28,371.95 1043.57,370.72 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1558.81' y1='543.23' x2='1559.73' y2='539.85' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1560.09,541.22 1559.73,539.85 1558.72,540.85 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1348.59' y1='556.90' x2='1353.52' y2='554.84' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1352.66,555.96 1353.52,554.84 1352.12,554.66 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='654.12' y1='570.35' x2='663.52' y2='577.94' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='662.12,577.72 663.52,577.94 663.01,576.61 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='577.01' y1='473.56' x2='573.37' y2='475.66' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='574.08,474.44 573.37,475.66 574.79,475.66 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='647.37' y1='589.41' x2='691.65' y2='594.88' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='690.35,595.43 691.65,594.88 690.52,594.03 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='688.03' y1='584.26' x2='703.07' y2='595.54' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='701.66,595.37 703.07,595.54 702.51,594.23 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1761.58' y1='672.01' x2='1765.26' y2='669.89' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1118.68' y1='416.31' x2='1122.44' y2='414.07' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1121.75,415.31 1122.44,414.07 1121.03,414.09 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1040.68' y1='369.87' x2='1044.28' y2='371.95' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1042.87,371.95 1044.28,371.95 1043.57,370.72 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1558.64' y1='543.29' x2='1559.70' y2='539.85' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1560.02,541.23 1559.70,539.85 1558.66,540.82 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1351.84' y1='558.48' x2='1354.18' y2='555.09' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1354.06,556.50 1354.18,555.09 1352.89,555.70 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='659.29' y1='573.62' x2='663.63' y2='577.90' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='662.26,577.54 663.63,577.90 663.25,576.53 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='567.71' y1='478.93' x2='571.36' y2='476.83' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='570.65,478.05 571.36,476.83 569.94,476.83 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='675.23' y1='594.71' x2='691.61' y2='595.03' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='690.37,595.71 691.61,595.03 690.40,594.30 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='644.03' y1='615.11' x2='702.65' y2='596.59' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='701.69,597.63 702.65,596.59 701.27,596.28 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1761.65' y1='671.97' x2='1765.26' y2='669.89' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1764.55,671.12 1765.26,669.89 1763.84,669.89 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='685.29' y1='596.46' x2='722.16' y2='599.61' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='720.88,600.21 722.16,599.61 721.00,598.80 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='624.12' y1='625.98' x2='616.94' y2='634.23' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='617.21,632.84 616.94,634.23 618.28,633.77 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='621.33' y1='658.72' x2='624.91' y2='656.65' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='624.20,657.88 624.91,656.65 623.50,656.65 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1013.36' y1='666.78' x2='1016.91' y2='664.73' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='621.44' y1='658.65' x2='624.91' y2='656.65' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='624.20,657.88 624.91,656.65 623.49,656.65 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1013.40' y1='666.75' x2='1016.91' y2='664.73' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1016.20,665.96 1016.91,664.73 1015.49,664.73 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1521.95' y1='672.27' x2='1523.10' y2='668.86' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1523.38,670.25 1523.10,668.86 1522.04,669.80 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='641.39' y1='666.79' x2='637.86' y2='664.76' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1522.13' y1='672.21' x2='1523.13' y2='668.87' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1523.46,670.25 1523.13,668.87 1522.10,669.84 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='641.41' y1='666.81' x2='637.86' y2='664.76' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='639.28,664.76 637.86,664.76 638.57,665.99 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='759.37' y1='684.56' x2='759.62' y2='687.94' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='758.82,686.77 759.62,687.94 760.24,686.66 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1027.78' y1='681.48' x2='1029.19' y2='678.09' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1029.37,679.50 1029.19,678.09 1028.07,678.95 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1200.76' y1='747.98' x2='1204.38' y2='745.89' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1203.67,747.12 1204.38,745.89 1202.97,745.89 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1183.46' y1='801.23' x2='1184.55' y2='797.87' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1184.84,799.26 1184.55,797.87 1183.50,798.82 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1266.99' y1='802.21' x2='1265.81' y2='805.66' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1265.54,804.27 1265.81,805.66 1266.88,804.73 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='739.39' y1='822.75' x2='738.01' y2='826.13' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='737.82,824.73 738.01,826.13 739.13,825.26 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1263.92' y1='844.57' x2='1267.44' y2='842.54' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1266.73,843.77 1267.44,842.54 1266.02,842.54 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1329.75' y1='845.59' x2='1333.19' y2='843.61' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1332.48,844.84 1333.19,843.61 1331.78,843.61 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1170.47' y1='871.95' x2='1173.95' y2='869.96' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1173.23,871.18 1173.95,869.96 1172.53,869.95 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='710.63' y1='956.01' x2='713.08' y2='952.94' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='712.87,954.34 713.08,952.94 711.76,953.46 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='766.06' y1='875.61' x2='769.51' y2='873.63' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='759.30' y1='684.58' x2='759.61' y2='687.94' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='758.79,686.78 759.61,687.94 760.20,686.65 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1027.66' y1='681.60' x2='1029.18' y2='678.09' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1029.34,679.50 1029.18,678.09 1028.04,678.93 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1209.90' y1='742.71' x2='1206.40' y2='744.73' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1207.11,743.51 1206.40,744.73 1207.81,744.73 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1183.49' y1='801.27' x2='1184.56' y2='797.87' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1184.87,799.25 1184.56,797.87 1183.51,798.83 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1267.02' y1='802.20' x2='1265.81' y2='805.66' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1265.55,804.27 1265.81,805.66 1266.88,804.73 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='735.89' y1='831.15' x2='737.37' y2='827.68' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='737.54,829.08 737.37,827.68 736.23,828.53 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1273.00' y1='839.34' x2='1269.45' y2='841.38' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1270.16,840.16 1269.45,841.38 1270.87,841.39 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1338.77' y1='840.40' x2='1335.21' y2='842.45' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1335.92,841.23 1335.21,842.45 1336.63,842.45 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1170.49' y1='871.94' x2='1173.95' y2='869.96' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1173.24,871.18 1173.95,869.96 1172.53,869.96 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='710.57' y1='956.13' x2='713.08' y2='952.94' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='712.88,954.34 713.08,952.94 711.77,953.46 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1217.71' y1='863.58' x2='1214.15' y2='865.63' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1214.86,864.41 1214.15,865.63 1215.56,865.64 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='766.04' y1='875.63' x2='769.51' y2='873.63' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='768.80,874.85 769.51,873.63 768.10,873.62 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1214.78' y1='903.77' x2='1218.35' y2='905.83' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1214.81' y1='903.79' x2='1218.35' y2='905.83' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1216.93,905.83 1218.35,905.83 1217.64,904.60 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1230.65' y1='918.22' x2='1230.44' y2='914.76' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1231.22,915.94 1230.44,914.76 1229.80,916.02 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1940.62' y1='1002.37' x2='1937.02' y2='1004.45' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1937.72,1003.22 1937.02,1004.45 1938.43,1004.45 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='749.79' y1='964.38' x2='753.40' y2='962.30' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='752.69,963.53 753.40,962.30 751.98,962.30 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1006.79' y1='299.37' x2='1005.84' y2='302.82' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1005.49,301.45 1005.84,302.82 1006.85,301.82 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1067.18' y1='454.52' x2='1064.96' y2='457.86' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1065.05,456.45 1064.96,457.86 1066.23,457.23 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1301.43' y1='446.64' x2='1301.51' y2='443.34' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1302.19,444.58 1301.51,443.34 1300.77,444.55 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1172.15' y1='444.22' x2='1177.95' y2='440.78' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1177.25,442.02 1177.95,440.78 1176.53,440.80 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1184.78' y1='457.18' x2='1183.74' y2='451.17' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1184.65,452.26 1183.74,451.17 1183.25,452.50 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1230.58' y1='918.07' x2='1230.43' y2='914.76' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1231.19,915.95 1230.43,914.76 1229.77,916.01 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1940.56' y1='1002.41' x2='1937.02' y2='1004.45' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1937.73,1003.22 1937.02,1004.45 1938.43,1004.45 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='758.92' y1='959.13' x2='755.42' y2='961.14' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='756.13,959.91 755.42,961.14 756.83,961.14 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1006.74' y1='299.35' x2='1005.83' y2='302.82' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1005.46,301.45 1005.83,302.82 1006.83,301.81 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1067.21' y1='454.43' x2='1064.96' y2='457.86' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1065.04,456.45 1064.96,457.86 1066.22,457.23 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1301.33' y1='446.72' x2='1301.49' y2='443.34' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1302.14,444.60 1301.49,443.34 1300.72,444.53 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1174.60' y1='443.95' x2='1178.16' y2='440.87' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1177.70,442.21 1178.16,440.87 1176.77,441.14 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1185.13' y1='455.82' x2='1183.82' y2='451.17' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1184.84,452.16 1183.82,451.17 1183.47,452.54 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
 <line x1='1035.74' y1='463.13' x2='1039.28' y2='461.09' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1038.57,462.32 1039.28,461.09 1037.86,461.09 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1329.06' y1='454.23' x2='1325.51' y2='456.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1329.04' y1='454.24' x2='1325.51' y2='456.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1326.22,455.05 1325.51,456.28 1326.92,456.28 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1305.20' y1='459.75' x2='1308.72' y2='457.72' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1305.23' y1='459.73' x2='1308.72' y2='457.72' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1308.01,458.95 1308.72,457.72 1307.30,457.72 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1365.64' y1='503.11' x2='1363.79' y2='506.70' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1363.72,505.29 1363.79,506.70 1364.98,505.94 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1425.14' y1='494.94' x2='1421.51' y2='497.03' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1422.22,495.80 1421.51,497.03 1422.93,497.03 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1127.66' y1='502.71' x2='1128.52' y2='499.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1128.91,500.65 1128.52,499.28 1127.53,500.30 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='534.88' y1='568.83' x2='535.92' y2='565.35' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='536.25,566.73 535.92,565.35 534.89,566.32 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1333.63' y1='524.57' x2='1332.21' y2='528.09' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1332.01,526.69 1332.21,528.09 1333.33,527.22 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1639.45' y1='631.31' x2='1636.04' y2='633.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1636.75,632.05 1636.04,633.28 1637.46,633.28 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='589.56' y1='611.89' x2='592.21' y2='614.83' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='590.86,614.39 592.21,614.83 591.91,613.45 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='594.84' y1='631.46' x2='598.45' y2='629.44' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='597.73,630.66 598.45,629.44 597.04,629.42 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='680.18' y1='694.80' x2='683.76' y2='692.73' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='683.05,693.96 683.76,692.73 682.35,692.73 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1640.25' y1='698.22' x2='1641.07' y2='694.82' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1641.47,696.18 1641.07,694.82 1640.09,695.85 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='770.98' y1='697.27' x2='774.58' y2='695.19' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1416.05' y1='500.17' x2='1419.50' y2='498.19' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1418.79,499.41 1419.50,498.19 1418.08,498.19 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1129.81' y1='494.33' x2='1128.92' y2='497.72' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1128.55,496.35 1128.92,497.72 1129.92,496.71 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='535.00' y1='568.74' x2='535.94' y2='565.35' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='536.29,566.72 535.94,565.35 534.93,566.34 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1630.54' y1='636.43' x2='1634.02' y2='634.43' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1633.31,635.66 1634.02,634.43 1632.60,634.43 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='606.48' y1='599.96' x2='603.25' y2='604.98' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='603.32,603.57 603.25,604.98 604.51,604.34 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='585.59' y1='607.57' x2='592.20' y2='614.83' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='590.85,614.40 592.20,614.83 591.90,613.45 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='586.24' y1='622.63' x2='607.73' y2='623.98' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='606.46,624.61 607.73,623.98 606.55,623.20 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='596.52' y1='632.90' x2='598.94' y2='629.61' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='598.78,631.02 598.94,629.61 597.64,630.18 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='680.32' y1='694.71' x2='683.76' y2='692.73' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='683.05,693.95 683.76,692.73 682.34,692.72 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1640.13' y1='698.30' x2='1641.05' y2='694.82' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1641.42,696.19 1641.05,694.82 1640.05,695.83 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='771.11' y1='697.19' x2='774.58' y2='695.19' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='773.87,696.42 774.58,695.19 773.16,695.19 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='796.76' y1='692.10' x2='793.20' y2='694.15' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='796.63' y1='692.18' x2='793.20' y2='694.15' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='793.91,692.92 793.20,694.15 794.62,694.15 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1143.91' y1='706.85' x2='1140.42' y2='708.85' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1141.13,707.62 1140.42,708.85 1141.84,708.85 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='648.67' y1='733.42' x2='652.26' y2='731.35' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='651.56,732.58 652.26,731.35 650.85,731.35 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='665.29' y1='784.10' x2='667.97' y2='781.08' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='667.69,782.47 667.97,781.08 666.63,781.52 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='815.22' y1='809.94' x2='812.97' y2='813.27' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='813.07,811.85 812.97,813.27 814.24,812.65 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1875.84' y1='760.98' x2='1872.34' y2='762.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1134.91' y1='712.02' x2='1138.40' y2='710.01' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1137.69,711.24 1138.40,710.01 1136.99,710.01 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='657.88' y1='728.11' x2='654.28' y2='730.19' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='654.99,728.96 654.28,730.19 655.70,730.19 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='671.96' y1='776.60' x2='669.25' y2='779.65' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='669.53,778.26 669.25,779.65 670.59,779.20 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='815.35' y1='809.90' x2='812.98' y2='813.27' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='813.11,811.86 812.98,813.27 814.27,812.67 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1875.78' y1='761.02' x2='1872.34' y2='762.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1873.05,761.77 1872.34,762.99 1873.75,763.00 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1794.44' y1='880.33' x2='1790.81' y2='882.43' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1794.42' y1='880.35' x2='1790.81' y2='882.43' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1791.52,881.20 1790.81,882.43 1792.23,882.43 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='787.28' y1='935.17' x2='790.77' y2='933.17' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='790.06,934.39 790.77,933.17 789.35,933.16 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1113.14' y1='378.06' x2='1109.57' y2='380.11' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1110.28,378.88 1109.57,380.11 1110.99,380.11 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1523.75' y1='529.28' x2='1521.65' y2='532.66' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1521.69,531.24 1521.65,532.66 1522.90,531.99 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1286.97' y1='624.05' x2='1288.57' y2='620.53' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1288.70,621.94 1288.57,620.53 1287.41,621.35 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1290.53' y1='662.20' x2='1294.04' y2='660.18' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='796.31' y1='929.97' x2='792.78' y2='932.01' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='793.49,930.78 792.78,932.01 794.20,932.01 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1116.89' y1='375.45' x2='1109.52' y2='380.09' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1110.18,378.83 1109.52,380.09 1110.94,380.03 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1518.71' y1='537.53' x2='1520.73' y2='534.16' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1520.70,535.58 1520.73,534.16 1519.49,534.85 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1290.81' y1='615.59' x2='1289.27' y2='618.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1289.13,617.58 1289.27,618.99 1290.42,618.17 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1290.47' y1='662.23' x2='1294.04' y2='660.18' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1293.33,661.40 1294.04,660.18 1292.62,660.18 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='990.83' y1='628.37' x2='994.48' y2='630.48' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='993.06,630.48 994.48,630.48 993.77,629.25 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1314.18' y1='637.57' x2='1313.70' y2='640.87' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1313.18,639.55 1313.70,640.87 1314.58,639.76 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='999.25' y1='644.19' x2='1002.76' y2='642.17' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='991.00' y1='628.48' x2='994.47' y2='630.48' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='993.06,630.48 994.47,630.48 993.76,629.26 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1312.77' y1='637.46' x2='1313.43' y2='640.87' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1312.50,639.80 1313.43,640.87 1313.89,639.53 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='999.17' y1='644.23' x2='1002.76' y2='642.17' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1002.05,643.39 1002.76,642.17 1001.34,642.17 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='720.22' y1='674.93' x2='723.77' y2='676.97' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='722.35,676.97 723.77,676.97 723.06,675.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1712.09' y1='685.59' x2='1710.35' y2='689.12' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1710.26,687.71 1710.35,689.12 1711.53,688.33 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1698.62' y1='722.15' x2='1702.14' y2='720.12' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='720.27' y1='674.96' x2='723.77' y2='676.97' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='722.35,676.98 723.77,676.97 723.05,675.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1712.05' y1='685.62' x2='1710.35' y2='689.12' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1710.25,687.71 1710.35,689.12 1711.52,688.33 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1698.50' y1='722.23' x2='1702.14' y2='720.12' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1701.43,721.35 1702.14,720.12 1700.72,720.12 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
 <line x1='578.62' y1='359.15' x2='578.87' y2='355.80' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='579.49,357.08 578.87,355.80 578.08,356.97 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1153.61' y1='228.05' x2='1154.13' y2='224.68' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1154.65,226.00 1154.13,224.68 1153.25,225.78 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1196.65' y1='308.94' x2='1197.47' y2='305.44' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1197.88,306.79 1197.47,305.44 1196.50,306.47 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1191.62' y1='433.36' x2='1189.96' y2='436.80' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1189.85,435.39 1189.96,436.80 1191.13,436.01 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1141.88' y1='438.99' x2='1145.44' y2='441.04' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1144.02,441.04 1145.44,441.04 1144.73,439.82 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1224.02' y1='420.00' x2='1220.47' y2='417.95' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='579.49,357.08 578.87,355.80 578.07,356.97 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1153.56' y1='228.16' x2='1154.13' y2='224.68' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1154.63,226.00 1154.13,224.68 1153.23,225.78 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1198.60' y1='300.49' x2='1197.84' y2='303.87' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1197.42,302.51 1197.84,303.87 1198.80,302.83 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1191.56' y1='433.40' x2='1189.95' y2='436.80' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1189.84,435.39 1189.95,436.80 1191.12,436.00 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1140.87' y1='437.99' x2='1145.51' y2='441.01' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1144.09,440.93 1145.51,441.01 1144.86,439.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1223.89' y1='419.92' x2='1220.47' y2='417.95' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1221.88,417.95 1220.47,417.95 1221.18,419.18 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1171.83' y1='411.75' x2='1175.44' y2='413.83' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1174.02,413.83 1175.44,413.83 1174.73,412.60 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1172.37' y1='411.86' x2='1175.48' y2='413.81' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1174.07,413.76 1175.48,413.81 1174.82,412.55 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
 <line x1='1664.71' y1='612.65' x2='1661.26' y2='614.63' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1661.97,613.41 1661.26,614.63 1662.68,614.64 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1631.19' y1='476.72' x2='1627.67' y2='478.75' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1628.37,477.52 1627.67,478.75 1629.08,478.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1094.04' y1='531.59' x2='1092.88' y2='535.02' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1092.60,533.63 1092.88,535.02 1093.94,534.08 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1235.09' y1='638.51' x2='1238.61' y2='636.49' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1237.90,637.71 1238.61,636.49 1237.19,636.49 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1241.79' y1='539.95' x2='1239.47' y2='543.36' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1239.58,541.95 1239.47,543.36 1240.75,542.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1185.09' y1='536.28' x2='1182.72' y2='539.52' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1182.87,538.11 1182.72,539.52 1184.02,538.95 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1051.33' y1='511.28' x2='1047.85' y2='513.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1048.56,512.06 1047.85,513.28 1049.27,513.29 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1018.30' y1='548.43' x2='1021.84' y2='546.39' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1021.13,547.62 1021.84,546.39 1020.42,546.39 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1003.22' y1='568.30' x2='1006.73' y2='566.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1622.11' y1='481.94' x2='1625.65' y2='479.91' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1624.94,481.14 1625.65,479.91 1624.23,479.91 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1091.26' y1='539.94' x2='1092.36' y2='536.57' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1092.65,537.96 1092.36,536.57 1091.30,537.52 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1244.14' y1='633.30' x2='1240.62' y2='635.33' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1241.33,634.10 1240.62,635.33 1242.04,635.33 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1241.72' y1='539.95' x2='1239.46' y2='543.36' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1239.55,541.95 1239.46,543.36 1240.73,542.73 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1179.21' y1='544.29' x2='1181.64' y2='540.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1181.48,542.40 1181.64,540.99 1180.34,541.56 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1042.32' y1='516.46' x2='1045.84' y2='514.44' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1045.13,515.67 1045.84,514.44 1044.42,514.44 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1064.48' y1='487.86' x2='1061.03' y2='489.85' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1061.74,488.62 1061.03,489.85 1062.45,489.85 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1027.32' y1='543.24' x2='1023.85' y2='545.23' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1024.57,544.01 1023.85,545.23 1025.27,545.24 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1003.21' y1='568.31' x2='1006.73' y2='566.28' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1006.02,567.50 1006.73,566.28 1005.32,566.28 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1069.88' y1='670.14' x2='1073.54' y2='668.03' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1072.83,669.26 1073.54,668.03 1072.12,668.03 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1090.36' y1='661.78' x2='1086.84' y2='663.81' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1087.55,662.58 1086.84,663.81 1088.26,663.81 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1124.21' y1='664.23' x2='1123.12' y2='660.78' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1124.17,661.74 1123.12,660.78 1122.82,662.16 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1148.14' y1='734.10' x2='1151.56' y2='732.14' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1150.84,733.36 1151.56,732.14 1150.14,732.14 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1052.16' y1='631.40' x2='1048.60' y2='633.44' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1070.10' y1='670.01' x2='1073.53' y2='668.03' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1072.82,669.26 1073.53,668.03 1072.12,668.03 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1090.36' y1='661.79' x2='1086.85' y2='663.81' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1087.56,662.58 1086.85,663.81 1088.26,663.81 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1124.21' y1='664.31' x2='1123.12' y2='660.78' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1124.16,661.74 1123.12,660.78 1122.80,662.16 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1148.07' y1='734.14' x2='1151.56' y2='732.14' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1150.85,733.36 1151.56,732.14 1150.14,732.14 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1052.11' y1='631.42' x2='1048.60' y2='633.44' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1049.31,632.21 1048.60,633.44 1050.02,633.44 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1160.50' y1='678.58' x2='1157.00' y2='676.56' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1160.48' y1='678.57' x2='1157.00' y2='676.56' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1158.41,676.56 1157.00,676.56 1157.71,677.79 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1274.77' y1='759.75' x2='1271.30' y2='761.75' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1272.01,760.52 1271.30,761.75 1272.72,761.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1296.13' y1='718.37' x2='1292.61' y2='720.39' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1293.32,719.17 1292.61,720.39 1294.03,720.39 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1262.70' y1='704.91' x2='1262.89' y2='708.24' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1262.11,707.05 1262.89,708.24 1263.53,706.97 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1333.81' y1='689.00' x2='1337.35' y2='686.96' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1336.64,688.19 1337.35,686.96 1335.94,686.96 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1228.62' y1='817.21' x2='1225.01' y2='819.29' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1265.88' y1='764.86' x2='1269.29' y2='762.91' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1268.57,764.13 1269.29,762.91 1267.87,762.90 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1287.09' y1='723.57' x2='1290.60' y2='721.55' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1289.89,722.78 1290.60,721.55 1289.18,721.55 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1263.12' y1='704.91' x2='1262.97' y2='708.24' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1262.32,706.98 1262.97,708.24 1263.73,707.04 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1342.98' y1='683.72' x2='1339.37' y2='685.80' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1340.08,684.57 1339.37,685.80 1340.79,685.80 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1336.97' y1='652.33' x2='1333.52' y2='654.32' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1334.23,653.09 1333.52,654.32 1334.94,654.32 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1228.65' y1='817.19' x2='1225.01' y2='819.29' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1225.72,818.06 1225.01,819.29 1226.43,819.29 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1091.35' y1='418.79' x2='1092.47' y2='415.38' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1092.76,416.77 1092.47,415.38 1091.41,416.32 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1385.64' y1='547.84' x2='1382.14' y2='549.84' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1382.85,548.62 1382.14,549.84 1383.56,549.85 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1602.15' y1='411.16' x2='1598.70' y2='413.15' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1599.41,411.92 1598.70,413.15 1600.12,413.15 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1518.50' y1='451.28' x2='1518.63' y2='447.92' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1519.29,449.17 1518.63,447.92 1517.88,449.12 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1540.30' y1='506.46' x2='1537.67' y2='509.67' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1537.90,508.27 1537.67,509.67 1538.99,509.17 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1756.37' y1='385.17' x2='1759.89' y2='383.14' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1089.54' y1='418.29' x2='1092.11' y2='415.32' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1091.84,416.71 1092.11,415.32 1090.77,415.78 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1385.74' y1='547.77' x2='1382.14' y2='549.84' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1382.85,548.62 1382.14,549.84 1383.56,549.84 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1602.36' y1='411.03' x2='1598.70' y2='413.14' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1599.41,411.92 1598.70,413.14 1600.12,413.14 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1518.82' y1='442.91' x2='1518.70' y2='446.34' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1518.03,445.08 1518.70,446.34 1519.45,445.14 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1540.30' y1='506.52' x2='1537.67' y2='509.67' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1537.92,508.27 1537.67,509.67 1539.00,509.18 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1756.29' y1='385.22' x2='1759.89' y2='383.14' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1759.18,384.37 1759.89,383.14 1758.47,383.14 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='762.70' y1='598.29' x2='749.22' y2='606.89' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='749.87,605.64 749.22,606.89 750.63,606.83 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='781.17' y1='644.76' x2='759.46' y2='633.38' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='760.87,633.32 759.46,633.38 760.21,634.58 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='790.94' y1='622.50' x2='751.29' y2='618.62' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='752.58,618.04 751.29,618.62 752.44,619.45 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='757.25' y1='656.20' x2='747.00' y2='640.74' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='748.27,641.37 747.00,640.74 747.09,642.16 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='756.74' y1='632.70' x2='751.69' y2='624.24' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='752.93,624.93 751.69,624.24 751.71,625.66 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='789.66' y1='608.30' x2='747.35' y2='609.59' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='748.55,608.85 747.35,609.59 748.60,610.27 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='738.56' y1='585.27' x2='741.83' y2='599.15' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='740.86,598.12 741.83,599.15 742.24,597.79 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='738.67' y1='619.59' x2='742.91' y2='606.66' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='743.20,608.05 742.91,606.66 741.85,607.61 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='750.31' y1='632.18' x2='750.96' y2='628.84' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='751.42,630.18 750.96,628.84 750.03,629.91 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='732.27' y1='642.56' x2='748.59' y2='632.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='747.89,634.22 748.59,632.99 747.18,633.00 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='677.12' y1='634.69' x2='705.08' y2='639.07' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='703.75,639.58 705.08,639.07 703.97,638.18 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='769.46' y1='582.99' x2='742.93' y2='600.11' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='743.57,598.85 742.93,600.11 744.34,600.04 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='737.60' y1='596.21' x2='741.24' y2='600.37' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='739.90,599.91 741.24,600.37 740.97,598.98 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1283.72' y1='537.85' x2='1280.17' y2='539.89' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1280.89,538.66 1280.17,539.89 1281.59,539.89 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1142.57' y1='323.34' x2='1146.01' y2='321.36' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1145.30,322.59 1146.01,321.36 1144.59,321.36 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='923.60' y1='273.02' x2='927.05' y2='271.04' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='926.34,272.26 927.05,271.04 925.63,271.03 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1373.97' y1='596.36' x2='1377.59' y2='594.27' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1376.88,595.50 1377.59,594.27 1376.17,594.27 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1319.78' y1='559.60' x2='1323.25' y2='557.60' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1322.54,558.83 1323.25,557.60 1321.83,557.60 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1202.77' y1='469.12' x2='1195.21' y2='464.84' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1196.63,464.83 1195.21,464.84 1195.93,466.06 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1159.61' y1='480.09' x2='1157.17' y2='483.48' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1157.31,482.07 1157.17,483.48 1158.46,482.89 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1506.35' y1='574.55' x2='1510.02' y2='572.43' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1509.32,573.65 1510.02,572.43 1508.61,572.43 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1802.06' y1='432.49' x2='1798.45' y2='434.57' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='761.75' y1='584.85' x2='748.71' y2='606.75' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='748.73,605.33 748.71,606.75 749.95,606.05 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='763.08' y1='639.10' x2='758.95' y2='633.56' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='760.25,634.12 758.95,633.56 759.11,634.97 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='757.95' y1='651.04' x2='747.23' y2='640.69' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='748.60,641.03 747.23,640.69 747.62,642.05 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='794.10' y1='618.30' x2='752.68' y2='623.31' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='753.82,622.46 752.68,623.31 753.99,623.87 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='759.23' y1='598.74' x2='746.68' y2='608.98' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='747.18,607.65 746.68,608.98 748.08,608.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='739.29' y1='586.11' x2='741.86' y2='599.15' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='740.93,598.08 741.86,599.15 742.32,597.81 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='726.46' y1='617.89' x2='742.28' y2='606.52' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='741.70,607.81 742.28,606.52 740.87,606.66 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='764.26' y1='630.06' x2='752.54' y2='628.27' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='753.86,627.75 752.54,628.27 753.65,629.16 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='736.60' y1='648.27' x2='749.00' y2='633.13' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='748.77,634.53 749.00,633.13 747.67,633.63 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='722.73' y1='605.67' x2='731.26' y2='603.46' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='730.25,604.46 731.26,603.46 729.90,603.08 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='754.81' y1='610.60' x2='749.65' y2='612.51' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='750.55,611.42 749.65,612.51 751.05,612.75 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='770.11' y1='573.40' x2='742.70' y2='600.03' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='743.08,598.67 742.70,600.03 744.07,599.68 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='717.94' y1='582.92' x2='741.01' y2='600.44' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='739.61,600.26 741.01,600.44 740.46,599.13 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1283.77' y1='543.12' x2='1280.17' y2='541.05' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1281.59,541.05 1280.17,541.05 1280.88,542.27 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1147.03' y1='316.64' x2='1147.02' y2='319.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1146.32,318.76 1147.02,319.99 1147.73,318.77 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='923.49' y1='273.09' x2='927.05' y2='271.04' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='926.34,272.26 927.05,271.04 925.64,271.04 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1383.01' y1='591.15' x2='1379.60' y2='593.11' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1380.32,591.88 1379.60,593.11 1381.02,593.11 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1319.57' y1='559.66' x2='1323.24' y2='557.59' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1322.51,558.81 1323.24,557.59 1321.82,557.58 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1197.56' y1='471.87' x2='1194.53' y2='465.03' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1195.68,465.87 1194.53,465.03 1194.38,466.44 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1159.54' y1='480.16' x2='1157.17' y2='483.48' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1157.31,482.06 1157.17,483.48 1158.46,482.89 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1515.55' y1='569.25' x2='1512.04' y2='571.26' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1512.75,570.04 1512.04,571.26 1513.46,571.27 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1802.02' y1='432.51' x2='1798.45' y2='434.57' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1799.16,433.34 1798.45,434.57 1799.87,434.57 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1453.80' y1='358.58' x2='1450.23' y2='360.64' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1450.94,359.41 1450.23,360.64 1451.65,360.64 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='344.40' y1='296.24' x2='348.01' y2='294.16' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='347.30,295.38 348.01,294.16 346.59,294.16 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1213.31' y1='446.25' x2='1209.81' y2='444.23' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='1211.22,444.23 1209.81,444.23 1210.52,445.46 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='1144.82' y1='386.08' x2='1141.20' y2='383.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<line x1='1453.73' y1='358.63' x2='1450.24' y2='360.64' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1450.95,359.41 1450.24,360.64 1451.65,360.64 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='344.50' y1='296.18' x2='348.01' y2='294.16' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='347.30,295.38 348.01,294.16 346.59,294.15 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1213.41' y1='446.31' x2='1209.81' y2='444.23' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1211.22,444.23 1209.81,444.23 1210.51,445.46 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1144.81' y1='386.07' x2='1141.20' y2='383.99' style='stroke-width: 1.07; stroke: #BEBEBE;' />
 <polygon points='1142.62,383.99 1141.20,383.99 1141.91,385.22 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='159.77' y1='815.57' x2='156.27' y2='813.55' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='157.68,813.55 156.27,813.55 156.98,814.78 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='2049.18' y1='834.96' x2='2045.08' y2='835.57' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='2046.19,834.69 2045.08,835.57 2046.40,836.09 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='170.24' y1='840.27' x2='167.56' y2='843.20' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='167.87,841.82 167.56,843.20 168.91,842.77 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='141.75' y1='845.51' x2='143.61' y2='841.96' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='143.66,843.37 143.61,841.96 142.41,842.72 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='110.60' y1='815.27' x2='114.05' y2='813.30' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='113.33,814.52 114.05,813.30 112.63,813.29 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='147.92' y1='806.26' x2='149.06' y2='809.80' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='148.01,808.85 149.06,809.80 149.36,808.41 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<line x1='499.15' y1='899.47' x2='502.63' y2='897.47' style='stroke-width: 1.07; stroke: #BEBEBE;' />
-<polygon points='501.92,898.70 502.63,897.47 501.21,897.47 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
-<text x='1099.97' y='403.20' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='31.60px' lengthAdjust='spacingAndGlyphs'>Luxembourg</text>
-<text x='1112.72' y='422.00' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='29.39px' lengthAdjust='spacingAndGlyphs'>Switzerland</text>
-<text x='1033.11' y='368.14' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='110.27px' lengthAdjust='spacingAndGlyphs'>United Kingdom of Great Britain and Ireland</text>
-<text x='1548.01' y='547.53' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Bhutan</text>
-<text x='1343.56' y='562.78' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.21px' lengthAdjust='spacingAndGlyphs'>Qatar</text>
-<text x='652.49' y='568.55' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='13.59px' lengthAdjust='spacingAndGlyphs'>Cuba</text>
-<text x='584.61' y='471.76' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='34.12px' lengthAdjust='spacingAndGlyphs'>United States</text>
-<text x='639.88' y='591.36' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>Haiti</text>
-<text x='681.31' y='582.46' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='50.57px' lengthAdjust='spacingAndGlyphs'>Dominican Republic</text>
-<text x='1754.04' y='677.89' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.51px' lengthAdjust='spacingAndGlyphs'>Philippines</text>
-<text x='668.64' y='598.46' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='29.70px' lengthAdjust='spacingAndGlyphs'>Puerto Rico</text>
-<text x='625.13' y='624.18' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='25.91px' lengthAdjust='spacingAndGlyphs'>Nicaragua</text>
-<text x='613.86' y='664.60' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.80px' lengthAdjust='spacingAndGlyphs'>Costa Rica</text>
-<text x='1005.80' y='672.66' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='32.55px' lengthAdjust='spacingAndGlyphs'>Sierra Leone</text>
-<text x='1511.30' y='676.56' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Ceylon</text>
-<text x='649.01' y='672.67' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Panama</text>
-<text x='747.62' y='684.32' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.91px' lengthAdjust='spacingAndGlyphs'>Guyana</text>
-<text x='1017.44' y='685.75' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.07px' lengthAdjust='spacingAndGlyphs'>Liberia</text>
-<text x='1193.28' y='753.87' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='37.30px' lengthAdjust='spacingAndGlyphs'>Belgian Congo</text>
-<text x='1172.81' y='805.53' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Angola</text>
-<text x='1277.64' y='802.02' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Malawi</text>
-<text x='749.57' y='822.56' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.76px' lengthAdjust='spacingAndGlyphs'>Bolivia</text>
-<text x='1256.29' y='850.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='32.55px' lengthAdjust='spacingAndGlyphs'>Mozambique</text>
-<text x='1322.21' y='851.48' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='54.35px' lengthAdjust='spacingAndGlyphs'>Madagascar (France)</text>
-<text x='1162.79' y='877.83' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='67.92px' lengthAdjust='spacingAndGlyphs'>German South-West Africa</text>
-<text x='702.35' y='960.23' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='12.96px' lengthAdjust='spacingAndGlyphs'>Chile</text>
-<text x='1223.41' y='862.81' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.96px' lengthAdjust='spacingAndGlyphs'>Botswana</text>
-<text x='758.48' y='881.49' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Paraguay</text>
-<text x='1207.25' y='901.97' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.97px' lengthAdjust='spacingAndGlyphs'>South Africa</text>
-<text x='1243.45' y='902.40' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='25.92px' lengthAdjust='spacingAndGlyphs'>Swaziland</text>
-<text x='1242.56' y='922.52' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.22px' lengthAdjust='spacingAndGlyphs'>Lesotho</text>
-<text x='1948.18' y='1000.57' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='33.49px' lengthAdjust='spacingAndGlyphs'>New Zealand</text>
-<text x='742.28' y='970.26' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Argentina</text>
-<text x='1017.76' y='299.17' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.33px' lengthAdjust='spacingAndGlyphs'>Iceland</text>
-<text x='1090.08' y='388.68' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.55px' lengthAdjust='spacingAndGlyphs'>Belgium</text>
-<text x='1076.25' y='454.40' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.54px' lengthAdjust='spacingAndGlyphs'>Spain</text>
-<text x='1289.52' y='450.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.22px' lengthAdjust='spacingAndGlyphs'>Georgia</text>
-<text x='1163.43' y='450.10' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.33px' lengthAdjust='spacingAndGlyphs'>Montenegro</text>
-<text x='1184.78' y='463.07' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.97px' lengthAdjust='spacingAndGlyphs'>Albania</text>
-<text x='1028.27' y='469.01' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Portugal</text>
-<text x='1336.65' y='452.43' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='26.87px' lengthAdjust='spacingAndGlyphs'>Azerbaijan</text>
-<text x='1297.74' y='465.63' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Armenia</text>
-<text x='1375.50' y='503.00' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.12px' lengthAdjust='spacingAndGlyphs'>Persia</text>
-<text x='1432.67' y='493.14' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.02px' lengthAdjust='spacingAndGlyphs'>Afghanistan</text>
-<text x='1116.69' y='507.01' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.34px' lengthAdjust='spacingAndGlyphs'>Tunisia</text>
-<text x='524.08' y='573.10' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Mexico</text>
-<text x='1343.96' y='524.42' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.06px' lengthAdjust='spacingAndGlyphs'>Kuwait</text>
-<text x='1646.86' y='629.51' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='57.20px' lengthAdjust='spacingAndGlyphs'>Rattanakosin Kingdom</text>
-<text x='605.04' y='601.51' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='15.49px' lengthAdjust='spacingAndGlyphs'>Belize</text>
-<text x='573.86' y='611.76' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.81px' lengthAdjust='spacingAndGlyphs'>Guatemala</text>
-<text x='591.88' y='624.03' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.65px' lengthAdjust='spacingAndGlyphs'>Honduras</text>
-<text x='583.74' y='637.35' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='29.08px' lengthAdjust='spacingAndGlyphs'>El Salvador</text>
-<text x='672.68' y='700.68' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.02px' lengthAdjust='spacingAndGlyphs'>Colombia</text>
-<text x='1629.28' y='702.52' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.33px' lengthAdjust='spacingAndGlyphs'>Malaya</text>
-<text x='763.47' y='703.15' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Suriname</text>
-<text x='804.31' y='690.30' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='37.61px' lengthAdjust='spacingAndGlyphs'>French Guiana</text>
-<text x='1151.46' y='705.05' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='45.51px' lengthAdjust='spacingAndGlyphs'>Equatorial Guinea</text>
-<text x='641.19' y='739.30' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Ecuador</text>
-<text x='657.49' y='788.29' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='12.01px' lengthAdjust='spacingAndGlyphs'>Peru</text>
-<text x='824.14' y='809.82' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.23px' lengthAdjust='spacingAndGlyphs'>Brazil</text>
-<text x='1883.40' y='759.18' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='49.29px' lengthAdjust='spacingAndGlyphs'>Papua New Guinea</text>
-<text x='1801.94' y='878.53' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='22.13px' lengthAdjust='spacingAndGlyphs'>Australia</text>
-<text x='779.80' y='941.06' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.48px' lengthAdjust='spacingAndGlyphs'>Uruguay</text>
-<text x='1120.62' y='376.26' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.65px' lengthAdjust='spacingAndGlyphs'>Netherlands</text>
-<text x='1532.98' y='529.16' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.85px' lengthAdjust='spacingAndGlyphs'>Nepal</text>
-<text x='1276.79' y='628.27' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.75px' lengthAdjust='spacingAndGlyphs'>Eritrea</text>
-<text x='1283.00' y='668.08' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Abyssinia</text>
-<text x='983.33' y='626.57' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='32.86px' lengthAdjust='spacingAndGlyphs'>Gambia, The</text>
-<text x='1325.46' y='637.31' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.96px' lengthAdjust='spacingAndGlyphs'>Djibouti</text>
-<text x='991.80' y='650.08' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='48.98px' lengthAdjust='spacingAndGlyphs'>Portuguese Guinea</text>
-<text x='712.64' y='673.13' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='26.87px' lengthAdjust='spacingAndGlyphs'>Venezuela</text>
-<text x='1722.11' y='685.46' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.44px' lengthAdjust='spacingAndGlyphs'>Brunei</text>
-<text x='1691.16' y='728.04' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='47.40px' lengthAdjust='spacingAndGlyphs'>Netherlands Indies</text>
-<text x='566.87' y='363.48' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.91px' lengthAdjust='spacingAndGlyphs'>Canada</text>
-<text x='1142.18' y='232.37' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.27px' lengthAdjust='spacingAndGlyphs'>Norway</text>
-<text x='1185.52' y='313.22' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.66px' lengthAdjust='spacingAndGlyphs'>Finland</text>
-<text x='1201.64' y='433.21' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.44px' lengthAdjust='spacingAndGlyphs'>Serbia</text>
-<text x='1134.29' y='437.19' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='39.18px' lengthAdjust='spacingAndGlyphs'>Kingfom of Italy</text>
-<text x='1231.58' y='425.88' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='22.75px' lengthAdjust='spacingAndGlyphs'>Romania</text>
-<text x='1164.31' y='409.95' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='64.14px' lengthAdjust='spacingAndGlyphs'>Austro-Hungarian Empire</text>
-<text x='1672.26' y='610.85' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.93px' lengthAdjust='spacingAndGlyphs'>French Indochina</text>
-<text x='1638.64' y='474.92' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='39.82px' lengthAdjust='spacingAndGlyphs'>Manchu Empire</text>
-<text x='1104.69' y='531.40' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Algeria</text>
-<text x='1227.56' y='644.40' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='56.58px' lengthAdjust='spacingAndGlyphs'>Anglo-Egyption Sudan</text>
-<text x='1250.86' y='539.86' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.54px' lengthAdjust='spacingAndGlyphs'>Egypt</text>
-<text x='1193.68' y='536.16' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='13.59px' lengthAdjust='spacingAndGlyphs'>Libya</text>
-<text x='1058.90' y='509.48' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.80px' lengthAdjust='spacingAndGlyphs'>Morocco</text>
-<text x='1032.88' y='497.34' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.93px' lengthAdjust='spacingAndGlyphs'>Spanish Morocco</text>
-<text x='1010.75' y='554.31' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.46px' lengthAdjust='spacingAndGlyphs'>Spanish Sahara</text>
-<text x='995.71' y='574.18' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='28.43px' lengthAdjust='spacingAndGlyphs'>Rio De Oro</text>
-<text x='1062.34' y='676.03' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='28.43px' lengthAdjust='spacingAndGlyphs'>Gold Coast</text>
-<text x='1097.85' y='659.98' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.71px' lengthAdjust='spacingAndGlyphs'>Togoland</text>
-<text x='1135.02' y='668.51' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Nigeria</text>
-<text x='1140.60' y='739.98' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='60.99px' lengthAdjust='spacingAndGlyphs'>French Equatorial Africa</text>
-<text x='1059.74' y='629.60' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='48.34px' lengthAdjust='spacingAndGlyphs'>French West Africa</text>
-<text x='1168.13' y='684.46' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.07px' lengthAdjust='spacingAndGlyphs'>Kamerun</text>
-<text x='1282.17' y='757.95' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='78.36px' lengthAdjust='spacingAndGlyphs'>German E. Africa (Tanganyika)</text>
-<text x='1303.57' y='716.57' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='44.87px' lengthAdjust='spacingAndGlyphs'>British East Africa</text>
-<text x='1250.94' y='704.66' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.91px' lengthAdjust='spacingAndGlyphs'>Uganda</text>
-<text x='1326.14' y='694.88' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='45.52px' lengthAdjust='spacingAndGlyphs'>British Somaliland</text>
-<text x='1328.67' y='663.43' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='44.88px' lengthAdjust='spacingAndGlyphs'>Italian Somaliland</text>
-<text x='1236.14' y='815.41' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.02px' lengthAdjust='spacingAndGlyphs'>Rhodesia</text>
-<text x='1080.70' y='423.07' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>France</text>
-<text x='1393.28' y='546.04' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='33.49px' lengthAdjust='spacingAndGlyphs'>Arabia (Nejd)</text>
-<text x='1609.62' y='409.36' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.08px' lengthAdjust='spacingAndGlyphs'>Mongolia</text>
-<text x='1506.58' y='455.61' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.24px' lengthAdjust='spacingAndGlyphs'>Xinjiang</text>
-<text x='1548.43' y='506.37' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='12.64px' lengthAdjust='spacingAndGlyphs'>Tibet</text>
-<text x='1748.81' y='391.05' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='35.39px' lengthAdjust='spacingAndGlyphs'>Sakhalin (RU)</text>
-<text x='774.64' y='596.49' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='53.41px' lengthAdjust='spacingAndGlyphs'>Antigua and Barbuda</text>
-<text x='795.14' y='647.36' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Barbados</text>
-<text x='804.59' y='624.60' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>Dominica</text>
-<text x='770.11' y='659.01' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='22.12px' lengthAdjust='spacingAndGlyphs'>Grenada</text>
-<text x='771.82' y='636.02' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='26.55px' lengthAdjust='spacingAndGlyphs'>Martinique</text>
-<text x='805.04' y='610.34' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.17px' lengthAdjust='spacingAndGlyphs'>Montserrat</text>
-<text x='738.53' y='583.47' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.24px' lengthAdjust='spacingAndGlyphs'>Anguilla</text>
-<text x='710.64' y='622.61' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='52.45px' lengthAdjust='spacingAndGlyphs'>Saint Kitts and Nevis</text>
-<text x='734.44' y='636.50' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='28.13px' lengthAdjust='spacingAndGlyphs'>Saint Lucia</text>
-<text x='707.84' y='648.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='85.00px' lengthAdjust='spacingAndGlyphs'>Saint Vincent and the Grenadines</text>
-<text x='697.95' y='609.88' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='69.83px' lengthAdjust='spacingAndGlyphs'>United States Virgin Islands</text>
-<text x='767.52' y='617.29' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.97px' lengthAdjust='spacingAndGlyphs'>Guadeloupe</text>
-<text x='650.04' y='636.57' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='50.57px' lengthAdjust='spacingAndGlyphs'>Netherlands Antilles</text>
-<text x='786.43' y='584.56' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.33px' lengthAdjust='spacingAndGlyphs'>Saint Martin</text>
-<text x='714.16' y='596.40' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.29px' lengthAdjust='spacingAndGlyphs'>Saint Barthelemy</text>
-<text x='1291.40' y='536.05' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='41.39px' lengthAdjust='spacingAndGlyphs'>Ottoman Empire</text>
-<text x='1135.12' y='329.22' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.54px' lengthAdjust='spacingAndGlyphs'>Sweden</text>
-<text x='916.03' y='278.90' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.06px' lengthAdjust='spacingAndGlyphs'>Denmark</text>
-<text x='1366.36' y='602.24' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='48.34px' lengthAdjust='spacingAndGlyphs'>British Protectorate</text>
-<text x='1312.28' y='565.48' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='33.49px' lengthAdjust='spacingAndGlyphs'>Arabia (Nejd)</text>
-<text x='1207.41' y='475.01' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.64px' lengthAdjust='spacingAndGlyphs'>Greece</text>
-<text x='1168.36' y='480.00' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='13.90px' lengthAdjust='spacingAndGlyphs'>Malta</text>
-<text x='1498.82' y='580.43' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='25.91px' lengthAdjust='spacingAndGlyphs'>British Raj</text>
-<text x='1809.52' y='430.69' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='41.39px' lengthAdjust='spacingAndGlyphs'>Empire of Japan</text>
-<text x='1461.26' y='356.78' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.13px' lengthAdjust='spacingAndGlyphs'>Russian Empire</text>
-<text x='336.80' y='302.12' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.13px' lengthAdjust='spacingAndGlyphs'>Russian Empire</text>
-<text x='1220.86' y='452.13' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.87px' lengthAdjust='spacingAndGlyphs'>Bulgaria</text>
-<text x='1152.39' y='391.96' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.13px' lengthAdjust='spacingAndGlyphs'>German Empire</text>
-<text x='167.34' y='821.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.61px' lengthAdjust='spacingAndGlyphs'>American Samoa</text>
-<text x='2052.39' y='833.16' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='7.28px' lengthAdjust='spacingAndGlyphs'>Fiji</text>
-<text x='177.89' y='840.15' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='11.69px' lengthAdjust='spacingAndGlyphs'>Niue</text>
-<text x='131.89' y='849.70' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.12px' lengthAdjust='spacingAndGlyphs'>Tonga</text>
-<text x='102.93' y='821.15' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='65.10px' lengthAdjust='spacingAndGlyphs'>Wallis and Futuna Islands</text>
-<text x='137.11' y='806.09' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Samoa</text>
-<text x='491.56' y='905.35' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>Rapa Nui</text>
+<line x1='159.73' y1='815.54' x2='156.27' y2='813.55' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='157.68,813.55 156.27,813.55 156.98,814.77 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='2049.12' y1='834.95' x2='2045.08' y2='835.57' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='2046.18,834.68 2045.08,835.57 2046.40,836.08 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='163.51' y1='847.61' x2='166.26' y2='844.62' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='165.95,846.01 166.26,844.62 164.91,845.05 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='141.81' y1='845.46' x2='143.61' y2='841.96' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='143.68,843.37 143.61,841.96 142.42,842.73 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='110.63' y1='815.25' x2='114.05' y2='813.29' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='113.33,814.52 114.05,813.29 112.63,813.29 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='148.04' y1='806.32' x2='149.08' y2='809.79' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='148.05,808.82 149.08,809.79 149.41,808.41 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='508.20' y1='894.26' x2='504.65' y2='896.31' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='505.35,895.08 504.65,896.31 506.06,896.31 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<line x1='1689.16' y1='575.46' x2='1692.78' y2='573.37' style='stroke-width: 1.07; stroke: #BEBEBE;' />
+<polygon points='1692.07,574.60 1692.78,573.37 1691.36,573.37 ' style='stroke-width: 1.07; stroke: #BEBEBE; fill: #FFFFFF;' />
+<text x='1099.87' y='403.24' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='31.60px' lengthAdjust='spacingAndGlyphs'>Luxembourg</text>
+<text x='1112.69' y='422.20' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='29.39px' lengthAdjust='spacingAndGlyphs'>Switzerland</text>
+<text x='1033.00' y='368.07' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='110.27px' lengthAdjust='spacingAndGlyphs'>United Kingdom of Great Britain and Ireland</text>
+<text x='1547.83' y='547.57' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Bhutan</text>
+<text x='1342.93' y='562.65' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.21px' lengthAdjust='spacingAndGlyphs'>Qatar</text>
+<text x='650.70' y='573.91' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='13.59px' lengthAdjust='spacingAndGlyphs'>Cuba</text>
+<text x='560.13' y='484.81' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='34.12px' lengthAdjust='spacingAndGlyphs'>United States</text>
+<text x='667.74' y='596.75' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='11.38px' lengthAdjust='spacingAndGlyphs'>Haiti</text>
+<text x='616.95' y='617.34' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='50.57px' lengthAdjust='spacingAndGlyphs'>Dominican Republic</text>
+<text x='1754.13' y='677.85' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.51px' lengthAdjust='spacingAndGlyphs'>Philippines</text>
+<text x='706.22' y='596.88' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='29.70px' lengthAdjust='spacingAndGlyphs'>Puerto Rico</text>
+<text x='618.65' y='643.42' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='25.91px' lengthAdjust='spacingAndGlyphs'>Nicaragua</text>
+<text x='613.83' y='664.53' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.80px' lengthAdjust='spacingAndGlyphs'>Costa Rica</text>
+<text x='1005.77' y='672.63' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='32.55px' lengthAdjust='spacingAndGlyphs'>Sierra Leone</text>
+<text x='1511.48' y='676.52' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Ceylon</text>
+<text x='648.88' y='672.69' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Panama</text>
+<text x='747.54' y='684.33' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.91px' lengthAdjust='spacingAndGlyphs'>Guyana</text>
+<text x='1017.32' y='685.83' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.07px' lengthAdjust='spacingAndGlyphs'>Liberia</text>
+<text x='1217.35' y='740.91' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='37.30px' lengthAdjust='spacingAndGlyphs'>Belgian Congo</text>
+<text x='1172.84' y='805.56' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Angola</text>
+<text x='1277.67' y='802.01' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Malawi</text>
+<text x='725.71' y='835.39' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.76px' lengthAdjust='spacingAndGlyphs'>Bolivia</text>
+<text x='1280.65' y='837.54' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='32.55px' lengthAdjust='spacingAndGlyphs'>Mozambique</text>
+<text x='1346.25' y='838.60' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='54.35px' lengthAdjust='spacingAndGlyphs'>Madagascar (France)</text>
+<text x='1162.93' y='877.83' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='67.92px' lengthAdjust='spacingAndGlyphs'>German South-West Africa</text>
+<text x='702.29' y='960.32' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='12.96px' lengthAdjust='spacingAndGlyphs'>Chile</text>
+<text x='1225.22' y='861.78' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.96px' lengthAdjust='spacingAndGlyphs'>Botswana</text>
+<text x='758.56' y='881.51' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Paraguay</text>
+<text x='1207.25' y='901.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.97px' lengthAdjust='spacingAndGlyphs'>South Africa</text>
+<text x='1247.27' y='902.43' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='25.92px' lengthAdjust='spacingAndGlyphs'>Swaziland</text>
+<text x='1242.49' y='922.41' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.22px' lengthAdjust='spacingAndGlyphs'>Lesotho</text>
+<text x='1948.12' y='1000.61' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='33.49px' lengthAdjust='spacingAndGlyphs'>New Zealand</text>
+<text x='766.51' y='957.33' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Argentina</text>
+<text x='1017.71' y='299.15' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.33px' lengthAdjust='spacingAndGlyphs'>Iceland</text>
+<text x='1090.06' y='387.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.55px' lengthAdjust='spacingAndGlyphs'>Belgium</text>
+<text x='1076.28' y='454.33' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.54px' lengthAdjust='spacingAndGlyphs'>Spain</text>
+<text x='1289.42' y='451.05' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.22px' lengthAdjust='spacingAndGlyphs'>Georgia</text>
+<text x='1157.64' y='447.98' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.33px' lengthAdjust='spacingAndGlyphs'>Montenegro</text>
+<text x='1185.15' y='461.70' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.97px' lengthAdjust='spacingAndGlyphs'>Albania</text>
+<text x='1028.17' y='469.01' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Portugal</text>
+<text x='1336.63' y='452.44' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='26.87px' lengthAdjust='spacingAndGlyphs'>Azerbaijan</text>
+<text x='1297.77' y='465.62' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Armenia</text>
+<text x='1355.35' y='514.05' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.12px' lengthAdjust='spacingAndGlyphs'>Persia</text>
+<text x='1408.55' y='506.05' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.02px' lengthAdjust='spacingAndGlyphs'>Afghanistan</text>
+<text x='1140.78' y='494.11' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.34px' lengthAdjust='spacingAndGlyphs'>Tunisia</text>
+<text x='524.19' y='573.04' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Mexico</text>
+<text x='1340.12' y='526.52' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.06px' lengthAdjust='spacingAndGlyphs'>Kuwait</text>
+<text x='1622.85' y='642.31' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='57.20px' lengthAdjust='spacingAndGlyphs'>Rattanakosin Kingdom</text>
+<text x='606.72' y='598.16' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='15.49px' lengthAdjust='spacingAndGlyphs'>Belize</text>
+<text x='569.88' y='608.32' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.81px' lengthAdjust='spacingAndGlyphs'>Guatemala</text>
+<text x='572.12' y='624.67' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.65px' lengthAdjust='spacingAndGlyphs'>Honduras</text>
+<text x='580.18' y='637.08' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='29.08px' lengthAdjust='spacingAndGlyphs'>El Salvador</text>
+<text x='672.74' y='700.59' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.02px' lengthAdjust='spacingAndGlyphs'>Colombia</text>
+<text x='1629.17' y='702.58' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.33px' lengthAdjust='spacingAndGlyphs'>Malaya</text>
+<text x='763.63' y='703.07' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Suriname</text>
+<text x='804.18' y='690.38' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='37.61px' lengthAdjust='spacingAndGlyphs'>French Guiana</text>
+<text x='1127.38' y='717.90' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='45.51px' lengthAdjust='spacingAndGlyphs'>Equatorial Guinea</text>
+<text x='665.38' y='726.31' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.18px' lengthAdjust='spacingAndGlyphs'>Ecuador</text>
+<text x='679.76' y='776.50' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='12.01px' lengthAdjust='spacingAndGlyphs'>Peru</text>
+<text x='824.27' y='809.80' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.23px' lengthAdjust='spacingAndGlyphs'>Brazil</text>
+<text x='1883.33' y='759.22' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='49.29px' lengthAdjust='spacingAndGlyphs'>Papua New Guinea</text>
+<text x='1801.92' y='878.55' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='22.13px' lengthAdjust='spacingAndGlyphs'>Australia</text>
+<text x='803.88' y='928.17' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.48px' lengthAdjust='spacingAndGlyphs'>Uruguay</text>
+<text x='1124.17' y='373.65' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.65px' lengthAdjust='spacingAndGlyphs'>Netherlands</text>
+<text x='1509.48' y='541.75' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.85px' lengthAdjust='spacingAndGlyphs'>Nepal</text>
+<text x='1300.98' y='615.42' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.75px' lengthAdjust='spacingAndGlyphs'>Eritrea</text>
+<text x='1282.89' y='668.11' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Abyssinia</text>
+<text x='983.43' y='626.68' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='32.86px' lengthAdjust='spacingAndGlyphs'>Gambia, The</text>
+<text x='1301.48' y='637.24' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.96px' lengthAdjust='spacingAndGlyphs'>Djibouti</text>
+<text x='991.50' y='650.12' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='48.98px' lengthAdjust='spacingAndGlyphs'>Portuguese Guinea</text>
+<text x='712.71' y='673.16' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='26.87px' lengthAdjust='spacingAndGlyphs'>Venezuela</text>
+<text x='1722.07' y='685.48' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.44px' lengthAdjust='spacingAndGlyphs'>Brunei</text>
+<text x='1691.00' y='728.11' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='47.40px' lengthAdjust='spacingAndGlyphs'>Netherlands Indies</text>
+<text x='566.86' y='363.48' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.91px' lengthAdjust='spacingAndGlyphs'>Canada</text>
+<text x='1142.13' y='232.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.27px' lengthAdjust='spacingAndGlyphs'>Norway</text>
+<text x='1209.73' y='300.26' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.66px' lengthAdjust='spacingAndGlyphs'>Finland</text>
+<text x='1201.58' y='433.23' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.44px' lengthAdjust='spacingAndGlyphs'>Serbia</text>
+<text x='1136.74' y='436.19' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='39.18px' lengthAdjust='spacingAndGlyphs'>Kingfom of Italy</text>
+<text x='1231.44' y='425.80' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='22.75px' lengthAdjust='spacingAndGlyphs'>Romania</text>
+<text x='1168.65' y='410.06' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='64.14px' lengthAdjust='spacingAndGlyphs'>Austro-Hungarian Empire</text>
+<text x='1672.27' y='610.85' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.93px' lengthAdjust='spacingAndGlyphs'>French Indochina</text>
+<text x='1614.42' y='487.83' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='39.82px' lengthAdjust='spacingAndGlyphs'>Manchu Empire</text>
+<text x='1080.60' y='544.24' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>Algeria</text>
+<text x='1251.66' y='631.50' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='56.58px' lengthAdjust='spacingAndGlyphs'>Anglo-Egyption Sudan</text>
+<text x='1250.78' y='539.85' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='14.54px' lengthAdjust='spacingAndGlyphs'>Egypt</text>
+<text x='1170.61' y='548.47' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='13.59px' lengthAdjust='spacingAndGlyphs'>Libya</text>
+<text x='1034.75' y='522.34' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='21.80px' lengthAdjust='spacingAndGlyphs'>Morocco</text>
+<text x='1072.04' y='486.06' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.93px' lengthAdjust='spacingAndGlyphs'>Spanish Morocco</text>
+<text x='1034.87' y='541.44' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.46px' lengthAdjust='spacingAndGlyphs'>Spanish Sahara</text>
+<text x='995.68' y='574.19' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='28.43px' lengthAdjust='spacingAndGlyphs'>Rio De Oro</text>
+<text x='1062.65' y='675.89' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='28.43px' lengthAdjust='spacingAndGlyphs'>Gold Coast</text>
+<text x='1097.93' y='659.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.71px' lengthAdjust='spacingAndGlyphs'>Togoland</text>
+<text x='1135.01' y='668.57' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Nigeria</text>
+<text x='1140.51' y='740.03' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='60.99px' lengthAdjust='spacingAndGlyphs'>French Equatorial Africa</text>
+<text x='1059.56' y='629.62' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='48.34px' lengthAdjust='spacingAndGlyphs'>French West Africa</text>
+<text x='1168.05' y='684.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.07px' lengthAdjust='spacingAndGlyphs'>Kamerun</text>
+<text x='1258.34' y='770.74' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='78.36px' lengthAdjust='spacingAndGlyphs'>German E. Africa (Tanganyika)</text>
+<text x='1279.53' y='729.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='44.87px' lengthAdjust='spacingAndGlyphs'>British East Africa</text>
+<text x='1274.87' y='704.65' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='19.91px' lengthAdjust='spacingAndGlyphs'>Uganda</text>
+<text x='1350.44' y='681.92' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='45.52px' lengthAdjust='spacingAndGlyphs'>British Somaliland</text>
+<text x='1344.41' y='650.53' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='44.88px' lengthAdjust='spacingAndGlyphs'>Italian Somaliland</text>
+<text x='1236.16' y='815.39' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.02px' lengthAdjust='spacingAndGlyphs'>Rhodesia</text>
+<text x='1078.89' y='422.51' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='17.70px' lengthAdjust='spacingAndGlyphs'>France</text>
+<text x='1393.31' y='545.97' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='33.49px' lengthAdjust='spacingAndGlyphs'>Arabia (Nejd)</text>
+<text x='1609.88' y='409.23' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.08px' lengthAdjust='spacingAndGlyphs'>Mongolia</text>
+<text x='1530.74' y='442.68' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.24px' lengthAdjust='spacingAndGlyphs'>Xinjiang</text>
+<text x='1548.42' y='506.42' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='12.64px' lengthAdjust='spacingAndGlyphs'>Tibet</text>
+<text x='1748.82' y='391.10' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='35.39px' lengthAdjust='spacingAndGlyphs'>Sakhalin (RU)</text>
+<text x='790.26' y='586.31' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='53.41px' lengthAdjust='spacingAndGlyphs'>Antigua and Barbuda</text>
+<text x='763.50' y='644.98' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='24.34px' lengthAdjust='spacingAndGlyphs'>Barbados</text>
+<text x='743.35' y='624.58' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>Dominica</text>
+<text x='760.04' y='656.92' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='22.12px' lengthAdjust='spacingAndGlyphs'>Grenada</text>
+<text x='809.17' y='620.25' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='26.55px' lengthAdjust='spacingAndGlyphs'>Martinique</text>
+<text x='774.62' y='599.92' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='27.17px' lengthAdjust='spacingAndGlyphs'>Montserrat</text>
+<text x='739.27' y='584.31' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.24px' lengthAdjust='spacingAndGlyphs'>Anguilla</text>
+<text x='698.43' y='620.66' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='52.45px' lengthAdjust='spacingAndGlyphs'>Saint Kitts and Nevis</text>
+<text x='780.13' y='632.19' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='28.13px' lengthAdjust='spacingAndGlyphs'>Saint Lucia</text>
+<text x='692.30' y='651.05' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='85.00px' lengthAdjust='spacingAndGlyphs'>Saint Vincent and the Grenadines</text>
+<text x='686.02' y='608.08' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='69.83px' lengthAdjust='spacingAndGlyphs'>United States Virgin Islands</text>
+<text x='772.10' y='611.71' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.97px' lengthAdjust='spacingAndGlyphs'>Guadeloupe</text>
+<text x='707.34' y='638.16' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='50.57px' lengthAdjust='spacingAndGlyphs'>Netherlands Antilles</text>
+<text x='771.97' y='571.60' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='30.33px' lengthAdjust='spacingAndGlyphs'>Saint Martin</text>
+<text x='694.49' y='584.44' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.29px' lengthAdjust='spacingAndGlyphs'>Saint Barthelemy</text>
+<text x='1291.24' y='549.00' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='41.39px' lengthAdjust='spacingAndGlyphs'>Ottoman Empire</text>
+<text x='1159.10' y='316.38' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.54px' lengthAdjust='spacingAndGlyphs'>Sweden</text>
+<text x='915.99' y='278.98' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.06px' lengthAdjust='spacingAndGlyphs'>Denmark</text>
+<text x='1390.44' y='589.35' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='48.34px' lengthAdjust='spacingAndGlyphs'>British Protectorate</text>
+<text x='1309.72' y='565.54' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='33.49px' lengthAdjust='spacingAndGlyphs'>Arabia (Nejd)</text>
+<text x='1208.68' y='475.44' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.64px' lengthAdjust='spacingAndGlyphs'>Greece</text>
+<text x='1168.29' y='480.06' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='13.90px' lengthAdjust='spacingAndGlyphs'>Malta</text>
+<text x='1523.14' y='567.45' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='25.91px' lengthAdjust='spacingAndGlyphs'>British Raj</text>
+<text x='1809.49' y='430.71' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='41.39px' lengthAdjust='spacingAndGlyphs'>Empire of Japan</text>
+<text x='1461.28' y='356.83' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.13px' lengthAdjust='spacingAndGlyphs'>Russian Empire</text>
+<text x='336.95' y='302.06' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.13px' lengthAdjust='spacingAndGlyphs'>Russian Empire</text>
+<text x='1220.94' y='452.20' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='20.87px' lengthAdjust='spacingAndGlyphs'>Bulgaria</text>
+<text x='1152.38' y='391.95' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='40.13px' lengthAdjust='spacingAndGlyphs'>German Empire</text>
+<text x='167.39' y='821.42' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='43.61px' lengthAdjust='spacingAndGlyphs'>American Samoa</text>
+<text x='2052.34' y='833.15' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='7.28px' lengthAdjust='spacingAndGlyphs'>Fiji</text>
+<text x='155.87' y='851.80' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='11.69px' lengthAdjust='spacingAndGlyphs'>Niue</text>
+<text x='131.95' y='849.67' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='16.12px' lengthAdjust='spacingAndGlyphs'>Tonga</text>
+<text x='102.95' y='821.14' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='65.10px' lengthAdjust='spacingAndGlyphs'>Wallis and Futuna Islands</text>
+<text x='137.23' y='806.13' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>Samoa</text>
+<text x='515.69' y='892.46' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='23.70px' lengthAdjust='spacingAndGlyphs'>Rapa Nui</text>
+<text x='1681.61' y='581.34' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";' textLength='28.44px' lengthAdjust='spacingAndGlyphs'>Hong Kong</text>
 </g>
 <g clip-path='url(#cpMC4wMHwyMTYwLjAwfDAuMDB8MTQ0MC4wMA==)'>
 <text x='10.65' y='147.53' style='font-size: 11.00px; font-family: "Arial";' textLength='640.14px' lengthAdjust='spacingAndGlyphs'>Historical Boundaries of World Countries and Cultural Regions. (work in progress) https://github.com/aourednik/historical-basemaps</text>
