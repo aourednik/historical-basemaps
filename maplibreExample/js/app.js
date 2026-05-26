@@ -1,9 +1,10 @@
 const localDataBaseUrl = "../pmtiles/output";
 const pagesDataBaseUrl = "assets";
 const dataBaseUrl = isLocalRun() ? localDataBaseUrl : pagesDataBaseUrl;
-const manifestUrl = `${dataBaseUrl}/historical-basemaps.layers.json`;
 const archiveUrl = `${dataBaseUrl}/historical-basemaps.pmtiles`;
+const archive = new pmtiles.PMTiles(archiveUrl);
 const protocol = new pmtiles.Protocol();
+protocol.add(archive);
 maplibregl.addProtocol("pmtiles", protocol.tile);
 
 const map = new maplibregl.Map({
@@ -33,8 +34,6 @@ const yearDisplay = document.getElementById("year-layer-display");
 const status = document.getElementById("status");
 const projectionButtons = Array.from(document.querySelectorAll(".projection-button"));
 
-let manifest;
-let currentLayerId;
 let worldLayers = [];
 let currentProjection = "mercator";
 
@@ -148,6 +147,24 @@ function removeLayerIfPresent(id) {
   }
 }
 
+function parseWorldLayer(vectorLayer) {
+  const match = vectorLayer.id.match(/^world_(\d+)_(bce|ce)$/);
+
+  if (!match) {
+    return null;
+  }
+
+  const absoluteYear = Number.parseInt(match[1], 10);
+  const isBce = match[2] === "bce";
+  const era = isBce ? "BCE" : "CE";
+
+  return {
+    sourceLayer: vectorLayer.id,
+    displayName: vectorLayer.description || `World ${absoluteYear} ${era}`,
+    sortYear: isBce ? -absoluteYear : absoluteYear,
+  };
+}
+
 function updateHistoricalLayer(sourceLayer) {
   const sourceId = addPmtilesSource();
   const fillLayerId = "historical-fill";
@@ -197,8 +214,7 @@ function updateHistoricalLayer(sourceLayer) {
     },
   });
 
-  currentLayerId = sourceLayer;
-  const selected = manifest.layers.find((layer) => layer.sourceLayer === sourceLayer);
+  const selected = worldLayers.find((layer) => layer.sourceLayer === sourceLayer);
   if (selected) {
     yearDisplay.textContent = selected.displayName;
   }
@@ -217,8 +233,6 @@ function setHistoricalLayerByIndex(indexValue) {
 }
 
 function populateYearRange() {
-  worldLayers = manifest.layers.filter((layer) => layer.sourceLayer !== "places");
-
   if (!worldLayers.length) {
     yearDisplay.textContent = "No historical layers found.";
     return;
@@ -228,7 +242,7 @@ function populateYearRange() {
   yearRange.max = String(worldLayers.length - 1);
   yearRange.step = "1";
 
-  // Default to latest layer from the manifest ordering.
+  // Default to latest layer from the archive metadata.
   const defaultIndex = worldLayers.length - 1;
   yearRange.value = String(defaultIndex);
 
@@ -237,12 +251,24 @@ function populateYearRange() {
   setHistoricalLayerByIndex(defaultIndex);
 }
 
-async function loadManifest() {
-  const response = await fetch(manifestUrl);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch layer manifest: ${response.status}`);
+async function loadPmtilesMetadata() {
+  const metadata = await archive.getMetadata();
+  const vectorLayers = Array.isArray(metadata.vector_layers) ? metadata.vector_layers : [];
+
+  worldLayers = vectorLayers
+    .map(parseWorldLayer)
+    .filter(Boolean)
+    .sort((left, right) => {
+      if (left.sortYear === right.sortYear) {
+        return left.sourceLayer.localeCompare(right.sourceLayer);
+      }
+
+      return left.sortYear - right.sortYear;
+    });
+
+  if (!worldLayers.length) {
+    throw new Error("No world_* layers found in PMTiles metadata.");
   }
-  manifest = await response.json();
 }
 
 map.on("load", async () => {
@@ -250,7 +276,7 @@ map.on("load", async () => {
     setProjection(currentProjection);
     hideBasemapLabels();
     hideBasemapBoundaries();
-    await loadManifest();
+    await loadPmtilesMetadata();
     populateYearRange();
     addPmtilesSource();
   } catch (error) {

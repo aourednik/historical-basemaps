@@ -6,7 +6,6 @@ This folder contains the rerunnable scripts for turning the repository's GeoJSON
 
 - `output/historical-basemaps.mbtiles`: intermediate vector tileset
 - `output/historical-basemaps.pmtiles`: final PMTiles archive
-- `output/historical-basemaps.layers.json`: generated layer manifest
 
 Each historical GeoJSON file in `../geojson` becomes its own vector source layer.
 
@@ -46,7 +45,7 @@ To use a different output basename:
 ./pmtiles/build-pmtiles.sh historical-basemaps-v1
 ```
 
-The script is safe to rerun. It overwrites the previous `.mbtiles`, `.pmtiles`, and layer manifest outputs for the selected basename.
+The script is safe to rerun. It overwrites the previous `.mbtiles` and `.pmtiles` outputs for the selected basename.
 
 By default, `build-pmtiles.sh` uses `pmtiles/processed_geojson/` when it exists and contains world snapshots. To force raw source files from `geojson/`, run:
 
@@ -59,7 +58,7 @@ By default, `build-pmtiles.sh` uses `pmtiles/processed_geojson/` when it exists 
 1. Install the required tools.
 2. Run `./pmtiles/precompute-color-classes.sh` from the repository root.
 3. Run `./pmtiles/build-pmtiles.sh` from the repository root.
-4. Open `pmtiles/output/historical-basemaps.layers.json` to see the generated source-layer names.
+4. Use `pmtiles show --metadata pmtiles/output/historical-basemaps.pmtiles` to inspect the generated source-layer names in the archive metadata.
 5. Use `pmtiles/output/historical-basemaps.pmtiles` in your viewer or publishing workflow.
 
 ## Layer strategy
@@ -105,9 +104,10 @@ The conversion is designed to be rerun whenever files in `geojson/` change.
 - Edit or add GeoJSON snapshots in `geojson/`.
 - Rerun `./pmtiles/precompute-color-classes.sh`.
 - Then rerun `./pmtiles/build-pmtiles.sh`.
-- Replace the published PMTiles artifact with the new file from `pmtiles/output/`.
+- Replace the published PMTiles artifact with the new file from `pmtiles/output/`, for example `cp pmtiles/output/historical-basemaps.pmtiles maplibreExample/assets/historical-basemaps.pmtiles`.
 
 ## Notes
 
 - The build script sorts the year layers chronologically from oldest BCE snapshots to latest CE snapshots.
 - The `places` layer is included separately because it spans multiple time periods and should generally be filtered by its own attributes.
+- PMTiles metadata includes the vector layer IDs and descriptions, so the MapLibre example does not need a separate layer manifest file.

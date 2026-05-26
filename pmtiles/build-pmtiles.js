@@ -172,7 +172,6 @@ function main() {
   const outputBaseName = options.outputBaseName;
   const mbtilesPath = path.join(outputDir, `${outputBaseName}.mbtiles`);
   const pmtilesPath = path.join(outputDir, `${outputBaseName}.pmtiles`);
-  const manifestPath = path.join(outputDir, `${outputBaseName}.layers.json`);
 
   ensureCommand("tippecanoe");
   ensureCommand("pmtiles");
@@ -185,8 +184,6 @@ function main() {
   }
 
   console.log(`Using GeoJSON source directory: ${path.relative(repoRoot, geojsonDir)}`);
-
-  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
 
   const tippecanoeArgs = [
     "--force",
@@ -215,7 +212,6 @@ function main() {
 
   console.log("Build complete.");
   console.log(`PMTiles: ${path.relative(repoRoot, pmtilesPath)}`);
-  console.log(`Layer manifest: ${path.relative(repoRoot, manifestPath)}`);
 }
 
 main();
