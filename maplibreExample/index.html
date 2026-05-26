@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Historical Basemaps PMTiles Example</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="map"></div>
+<div class="panel">
+  <h1>Historical Basemaps</h1>
+  <p>MapLibre GL JS example using the generated PMTiles archive and an OpenFreeMap basemap.</p>
+  <div class="controls">
+    <div class="control-group" aria-label="Map projection">
+      <span>Rendering</span>
+      <div class="segmented-control" role="group" aria-label="Map projection">
+        <button class="projection-button is-active" type="button" data-projection="mercator" aria-pressed="true">2D</button>
+        <button class="projection-button" type="button" data-projection="globe" aria-pressed="false">Globe</button>
+      </div>
+    </div>
+    <label for="year-layer-range">
+      Historical year
+      <input id="year-layer-range" type="range" min="0" max="0" step="1" value="0">
+      <div class="year-caption" id="year-layer-display">Loading…</div>
+    </label>
+  </div>
+  <div class="legend">
+    <small>Style hints</small>
+    <div class="swatch-row"><span class="swatch" style="background:#c8794d"></span><span>Historical polygons</span></div>
+  </div>
+  <div class="status" id="status">Loading manifest and archive metadata…</div>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/pmtiles@3.2.0/dist/pmtiles.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
