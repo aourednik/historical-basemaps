@@ -1,7 +1,6 @@
 const localDataBaseUrl = "../pmtiles/output";
-const releaseDataBaseUrl =
-  "https://github.com/markmclaren/historical-basemaps/releases/latest/download";
-const dataBaseUrl = isLocalRun() ? localDataBaseUrl : releaseDataBaseUrl;
+const pagesDataBaseUrl = "assets";
+const dataBaseUrl = isLocalRun() ? localDataBaseUrl : pagesDataBaseUrl;
 const manifestUrl = `${dataBaseUrl}/historical-basemaps.layers.json`;
 const archiveUrl = `${dataBaseUrl}/historical-basemaps.pmtiles`;
 const protocol = new pmtiles.Protocol();

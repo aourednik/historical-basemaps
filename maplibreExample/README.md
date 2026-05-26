@@ -3,7 +3,7 @@
 This example shows how to load `pmtiles/output/historical-basemaps.pmtiles` into MapLibre GL JS with an OpenFreeMap basemap.
 
 When it runs locally, it loads generated files from `../pmtiles/output/`.
-When it runs from GitHub Pages, it loads `historical-basemaps.pmtiles` and `historical-basemaps.layers.json` from the latest GitHub Release.
+When it runs from GitHub Pages, it loads committed publish files from `assets/` so the archive and manifest are served from the same origin as the page.
 
 ## Run it
 
@@ -28,7 +28,7 @@ http://localhost:8000/maplibreExample/
 - Uses the generated `../pmtiles/output/historical-basemaps.layers.json` manifest to drive a year range slider.
 - Uses the generated `../pmtiles/output/historical-basemaps.pmtiles` archive as a vector source.
 - Colors polygons using precomputed `color_class` values for better neighboring contrast.
-- Switches automatically between local generated files and GitHub Release assets based on the page host.
+- Switches automatically between local generated files and committed GitHub Pages assets based on the page host.
 
 Rebuild the PMTiles archive first if the files in `geojson/` have changed:
 
