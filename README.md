@@ -1,4 +1,5 @@
-# Historical boundaries of world countries and cultural regions
+# Historical Boundaries Viewer  
+## (world countries and cultural regions)
 
 ![world 1880 DRAFT ROUGH](img/historicalmaps-leaflet.png)
 
