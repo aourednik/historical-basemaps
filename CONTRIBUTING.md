@@ -8,13 +8,21 @@ If you use these maps, think about giving back by contributing. This can be done
 - Reporting [issues](https://github.com/aourednik/historical-basemaps/issues)
 - Sending me an updated geojson file. ([my contact information](https://ourednik.info/contact.php)).
 
-Please edit only the geojson files. The svg files are produced by a [script](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd) from the goejson data: it is thus not worthwile editing them manually.
+## Unwanted edits
+
+Please **edit only the geojson files** with regard to their historical correctness. The svg files are produced by a [script](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd) from the goejson data: it is thus not worthwhile editing them manually.
+
+Please **do not add any esthetic variables inside the geojson files**! Line-width, color, etc. are not geographical informations, they are to be treated in a separate style sheet.
+
+If you wish to create an app around this dataset, please consider creating a dedicated repository. Historical-basemaps is a geodata collection, not an app. Mini-apps are admissible and can be stored in the [examples](https://github.com/aourednik/historical-basemaps/tree/master/examples) folder.
+
+If you have translations to propose, please include them as a new variable in the original GeoJSON files under NAME_\[LanguageCode\]. Having a separate set of GeoJSON files for each language would make this dataset utterly unmanagable.
 
 ## Tools and technicalities
 
 ### Suggested editor: QGIS
 
-[QGIS](https://qgis.org) 3.0 and above can natively edit gejson. This is especially helpful for making quick fixes. For heavier editing, geojson support remains suboptimal: slow and bug-prone. In this case, I suggest converting geojson to geopackage, make edits and to reexport them to geojson. __Do not use ESRI shape files as an intermediary editing format, as this would kill UTF-8 Unicode data !__ (all ë à è and ø would become ÂÃƒâ€šÃ)
+[QGIS](https://qgis.org) 3.0 and above can natively edit gejson. This is especially helpful for making quick fixes. For heavier editing, geojson support remains suboptimal: slow and bug-prone. In this case, I suggest converting geojson to geopackage, make edits and to reexport them to geojson. **Do not use ESRI shape files as an intermediary editing format, as this would kill UTF-8 Unicode data !** (all ë à è and ø would become ÂÃƒâ€šÃ)
 
 A good introduction to advanced editing in QGIS can be found in [this video by Klas Karlsson](https://www.youtube.com/watch?v=jZYKGrIyVCA).
 
