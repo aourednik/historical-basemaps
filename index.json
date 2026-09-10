@@ -1006,7 +1006,7 @@
     },
     {
       "year": 100,
-      "filename": "world_100.geojson",
+      "filename": "world_100_ptbr.geojson",
       "countries": [
         "Ainu",
         "Alans",
@@ -1095,7 +1095,7 @@
     },
     {
       "year": 200,
-      "filename": "world_200.geojson",
+      "filename": "world_200_ptbr.geojson",
       "countries": [
         "Ainu",
         "Amazon hunter-gatherers",
@@ -1170,7 +1170,7 @@
     },
     {
       "year": 300,
-      "filename": "world_300.geojson",
+      "filename": "world_300_ptbr.geojson",
       "countries": [
         "Ainu",
         "Amazon hunter-gatherers",
@@ -1247,7 +1247,7 @@
     },
     {
       "year": 400,
-      "filename": "world_400.geojson",
+      "filename": "world_400_ptbr.geojson",
       "countries": [
         "Ainu",
         "Akatziri",
@@ -1332,7 +1332,7 @@
     },
     {
       "year": 500,
-      "filename": "world_500.geojson",
+      "filename": "world_500_ptbr.geojson",
       "countries": [
         "Ainu",
         "Amazon hunter-gatherers",
@@ -1425,7 +1425,7 @@
     },
     {
       "year": 600,
-      "filename": "world_600.geojson",
+      "filename": "world_600_ptbr.geojson",
       "countries": [
         "Ainu",
         "Alwa",
@@ -1514,7 +1514,7 @@
     },
     {
       "year": 700,
-      "filename": "world_700.geojson",
+      "filename": "world_700_ptbr.geojson",
       "countries": [
         "           ",
         "Ainu",
@@ -1647,7 +1647,7 @@
     },
     {
       "year": 800,
-      "filename": "world_800.geojson",
+      "filename": "world_800_ptbr.geojson",
       "countries": [
         "Abbasid Caliphate",
         "Aghlabid Emirate",
@@ -1770,7 +1770,7 @@
     },
     {
       "year": 900,
-      "filename": "world_900.geojson",
+      "filename": "world_900_ptbr.geojson",
       "countries": [
         "Abbasid Caliphate",
         "Aghlabid Emirate",
@@ -1911,7 +1911,7 @@
     },
     {
       "year": 1000,
-      "filename": "world_1000.geojson",
+      "filename": "world_1000_ptbr.geojson",
       "countries": [
         "Ainu",
         "Alans",
@@ -2046,7 +2046,7 @@
     },
     {
       "year": 1100,
-      "filename": "world_1100.geojson",
+      "filename": "world_1100_ptbr.geojson",
       "countries": [
         "Ainu",
         "Alans",
@@ -2191,7 +2191,7 @@
     },
     {
       "year": 1200,
-      "filename": "world_1200.geojson",
+      "filename": "world_1200_ptbr.geojson",
       "countries": [
         "Ainu",
         "Almohad Caliphate",
@@ -2326,7 +2326,7 @@
     },
     {
       "year": 1279,
-      "filename": "world_1279.geojson",
+      "filename": "world_1279_ptbr.geojson",
       "countries": [
         "Abdelouadides",
         "Aceh",
@@ -2445,7 +2445,7 @@
     },
     {
       "year": 1300,
-      "filename": "world_1300.geojson",
+      "filename": "world_1300_ptbr.geojson",
       "countries": [
         "Aceh",
         "Ainus",
@@ -2564,7 +2564,7 @@
     },
     {
       "year": 1400,
-      "filename": "world_1400.geojson",
+      "filename": "world_1400_ptbr.geojson",
       "countries": [
         "Aceh",
         "Ainus",
@@ -2685,7 +2685,7 @@
     },
     {
       "year": 1492,
-      "filename": "world_1492.geojson",
+      "filename": "world_1492_ptbr.geojson",
       "countries": [
         "'Amuwu",
         "A'i Cofán/Kofán",
@@ -3998,7 +3998,7 @@
     },
     {
       "year": 1500,
-      "filename": "world_1500.geojson",
+      "filename": "world_1500_ptbr.geojson",
       "countries": [
         "Aceh",
         "Adal",
@@ -4143,7 +4143,7 @@
     },
     {
       "year": 1530,
-      "filename": "world_1530.geojson",
+      "filename": "world_1530_ptbr.geojson",
       "countries": [
         "Aaniiih",
         "Abnaki",
@@ -4418,7 +4418,7 @@
     },
     {
       "year": 1600,
-      "filename": "world_1600.geojson",
+      "filename": "world_1600_ptbr.geojson",
       "countries": [
         "Aaniiih",
         "Abnaki",
@@ -5062,7 +5062,7 @@
     },
     {
       "year": 1650,
-      "filename": "world_1650.geojson",
+      "filename": "world_1650_ptbr.geojson",
       "countries": [
         "Agwarmin",
         "Ahmadnagar",
@@ -5661,7 +5661,7 @@
     },
     {
       "year": 1700,
-      "filename": "world_1700.geojson",
+      "filename": "world_1700_ptbr.geojson",
       "countries": [
         "Agwarmin",
         "Ainu",
@@ -6251,7 +6251,7 @@
     },
     {
       "year": 1715,
-      "filename": "world_1715.geojson",
+      "filename": "world_1715_ptbr.geojson",
       "countries": [
         "Agwarmin",
         "Air",
@@ -6857,7 +6857,7 @@
     },
     {
       "year": 1783,
-      "filename": "world_1783.geojson",
+      "filename": "world_1783_ptbr.geojson",
       "countries": [
         "Aboriginal Tasmanians",
         "Acadian Peninsula (UK)",
@@ -7412,7 +7412,7 @@
     },
     {
       "year": 1800,
-      "filename": "world_1800.geojson",
+      "filename": "world_1800_ptbr.geojson",
       "countries": [
         "Aboriginal Tasmanians",
         "Acadian Peninsula (UK)",
@@ -7964,7 +7964,7 @@
     },
     {
       "year": 1815,
-      "filename": "world_1815.geojson",
+      "filename": "world_1815_ptbr.geojson",
       "countries": [
         "       ",
         "Afghanistan",
@@ -8461,7 +8461,7 @@
     },
     {
       "year": 1880,
-      "filename": "world_1880.geojson",
+      "filename": "world_1880_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Algeria (FR)",
@@ -8636,7 +8636,7 @@
     },
     {
       "year": 1900,
-      "filename": "world_1900.geojson",
+      "filename": "world_1900_ptbr.geojson",
       "countries": [
         "Accra",
         "Afghanistan",
@@ -8807,7 +8807,7 @@
     },
     {
       "year": 1914,
-      "filename": "world_1914.geojson",
+      "filename": "world_1914_ptbr.geojson",
       "countries": [
         "Abyssinia",
         "Afghanistan",
@@ -8955,7 +8955,7 @@
     },
     {
       "year": 1920,
-      "filename": "world_1920.geojson",
+      "filename": "world_1920_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
@@ -9124,7 +9124,7 @@
     },
     {
       "year": 1930,
-      "filename": "world_1930.geojson",
+      "filename": "world_1930_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
@@ -9291,7 +9291,7 @@
     },
     {
       "year": 1938,
-      "filename": "world_1938.geojson",
+      "filename": "world_1938_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
@@ -9468,7 +9468,7 @@
     },
     {
       "year": 1945,
-      "filename": "world_1945.geojson",
+      "filename": "world_1945_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
@@ -9657,7 +9657,7 @@
     },
     {
       "year": 1960,
-      "filename": "world_1960.geojson",
+      "filename": "world_1960_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
@@ -9820,7 +9820,7 @@
     },
     {
       "year": 1994,
-      "filename": "world_1994.geojson",
+      "filename": "world_1994_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
@@ -10019,7 +10019,7 @@
     },
     {
       "year": 2000,
-      "filename": "world_2000.geojson",
+      "filename": "world_2000_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
@@ -10218,7 +10218,7 @@
     },
     {
       "year": 2010,
-      "filename": "world_2010.geojson",
+      "filename": "world_2010_ptbr.geojson",
       "countries": [
         "Afghanistan",
         "Albania",
