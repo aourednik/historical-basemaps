@@ -1,0 +1,170 @@
+:root {
+  --panel-bg: rgba(250, 247, 240, 0.92);
+  --panel-border: rgba(48, 60, 72, 0.16);
+  --text: #1f2a33;
+  --accent: #8d4f2d;
+  --water: #bcd9ea;
+}
+
+html, body, #map {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  background: #8D502D;
+}
+
+#map {
+  position: absolute;
+  inset: 0;
+}
+
+.panel {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+  width: min(360px, calc(100vw - 32px));
+  padding: 14px 16px;
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  background: var(--panel-bg);
+  box-shadow: 0 12px 32px rgba(24, 34, 41, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+.panel h1 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.panel p,
+.panel label,
+.panel small {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.controls {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.controls label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.95rem;
+}
+
+.control-group {
+  display: grid;
+  gap: 6px;
+  font-size: 0.95rem;
+}
+
+.segmented-control {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid rgba(52, 63, 72, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.projection-button {
+  min-height: 34px;
+  border: 0;
+  border-right: 1px solid rgba(52, 63, 72, 0.16);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.projection-button:last-child {
+  border-right: 0;
+}
+
+.projection-button.is-active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.projection-button:focus-visible {
+  position: relative;
+  z-index: 1;
+  outline: 2px solid rgba(141, 79, 45, 0.45);
+  outline-offset: -2px;
+}
+
+select,
+input[type="range"],
+input[type="checkbox"] {
+  accent-color: var(--accent);
+}
+
+select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid rgba(52, 63, 72, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--text);
+  font: inherit;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.year-caption {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: #42505a;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(52, 63, 72, 0.14);
+}
+
+.swatch-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 0.92rem;
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #4f5c66;
+}
+
+@media (max-width: 640px) {
+  .panel {
+    top: auto;
+    bottom: 16px;
+  }
+}
