@@ -10,7 +10,7 @@ This is an R utility for batch converting geoJSON files to SVG.
 # Libraries
 
 ```{r}
-# installation of sf needs gdal. Enventually, you need to run system("hombrew install gdal") before. 
+# installation of sf needs gdal. Enventually, you need to run system("hombrew install gdal") or the equivalent (apt or other) on your system before.
 require(sf) # Combines sp, rgeos and rgdal functionality
 # require(cartography)
 require(ggplot2)
@@ -19,12 +19,12 @@ require(stringr)
 require(magrittr)
 ```
 
-# COnvert new GeoJSON files to SVG
+# Convert new GeoJSON files to SVG
 
 This takes all geojson more recent than the most recent svg file and converts them
 
 ```{r}
-basedir <- dirname(rstudioapi::getActiveDocumentContext()$path)
+basedir <- rstudioapi::getActiveDocumentContext()$path %>% dirname %>% dirname
 geodatas <- list.files(file.path(basedir,"geojson"),pattern="world_.*geojson") 
 geodatas_fullpath <- list.files(file.path(basedir,"geojson"),pattern="world_.*geojson",full.names = TRUE) 
 geodatas_mtime = file.mtime(geodatas_fullpath)
@@ -41,13 +41,12 @@ for (i in 1:length(geodatas)) {
 			geodata$SUBJECTO <- geodata$NAME
 	  }
     geodata <- st_transform(geodata, "+proj=natearth2")
-    # plot(st_geometry(geodata))
-    # plot(geodata["NAME"])
+		geodata <- st_zm(geodata, drop = TRUE, what = "ZM") # Drop Z/M dimensions so all geometries strictly match 2D columns (X and Y)
+	geodata_labeled <- geodata_clean %>% filter(!is.na(NAME) & NAME != "") 		# Filtered version of the dataset specifically for text labeling
     ggplot(data = geodata) + 
         geom_sf(aes(fill = SUBJECTO)) +
-        # geom_sf_text(aes(label=NAME),size=0.5) +
         ggrepel::geom_text_repel(
-          data = geodata,
+          data = geodata_labeled,
           aes(label = NAME, geometry = geometry),
           stat = "sf_coordinates",
           min.segment.length = 0.2, # skip drawing segments shorter than this
@@ -62,7 +61,7 @@ for (i in 1:length(geodatas)) {
           subtitle= "Historical Boundaries of World Countries and Cultural Regions. (work in progress) https://github.com/aourednik/historical-basemaps",
           x = element_blank(), 
           y = element_blank(),
-          caption = "André Ourednik & GitHub contributors, 2021"
+          caption = "André Ourednik & GitHub contributors, 2026"
         )
     ggsave(file.path(basedir,"svg",paste0(geofilePure,".svg")),width = 30, height=20)
   }
