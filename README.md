@@ -6,15 +6,16 @@
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. It is __work in progress__: verify the maps by comparison to other sources before using in academic work. If you see errors, report them in the "issues" section.
 
-If you use the maps, think about giving back by [contributing](CONTRIBUTING.md). Please read the [contributing](CONTRIBUTING.md) documentation carefully before doing so, as some type of edits are not appropriate for this repository.
+If you use the maps, think about giving back by [contributing](CONTRIBUTING.md). Please read the [contributing](CONTRIBUTING.md) documentation carefully before doing so, as some type of edits are not appropriate for this repository. As I have invested countless hours in curating this repository, you can help if you [![buy me A coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/your_bmc_username)
 
 ## Apps
 
 Several apps using the historical-basemaps dataset have been developped. A non-exhaustive list:
 
-- [Point in History](https://hanshack.com/point-in-history/): a web app to visualize the history of any point on the planet by Hans Hack.
+- [World Map Through the Ages](https://norway-charts.netlify.app/world_map_through_the_ages_globle_gl/)
 - A [web app on ourednik.info](https://ourednik.info/historicalmaps/app.html) (alpha release) alows you to exlore the dataset in alternative map projections.
 - [Atlas Pi](https://atlaspi.it/) - a public REST + MCP API of historical geography: 1000+ polities with GeoJSON borders, events, dynastic chains and cited sources, 4500 BCE-2024, with per-record confidence scores.
+- [Point in History](https://hanshack.com/point-in-history/): a web app to visualize the history of any point on the planet by Hans Hack (currently displaying errors)
 - (first implementation but currently unavailable) [Historic Borders](https://historicborders.app/): a web app with timeline, by Adam (GitHub user @ngrapple).
 
 You'll find other [use examples with D3 and Leaflet](https://ourednik.info/historicalmaps/) on ourednik.info.
