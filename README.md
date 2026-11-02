@@ -6,7 +6,7 @@
 
 This historical boundaries project aims at providing ready-to-use base maps for mapping historical data. It is __work in progress__: verify the maps by comparison to other sources before using in academic work. If you see errors, report them in the "issues" section.
 
-If you use the maps, think about giving back by [contributing](CONTRIBUTING.md). Please read the [contributing](CONTRIBUTING.md) documentation carefully before doing so, as some type of edits are not appropriate for this repository. As I have invested countless hours in curating this repository, you can help if you [![buy me A coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/your_bmc_username)
+If you use the maps, think about giving back by [contributing](CONTRIBUTING.md). Please read the [contributing](CONTRIBUTING.md) documentation carefully before doing so, as some type of edits are not appropriate for this repository. As I have invested countless hours in curating this repository, you can help if you [![buy me A coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/andreourednik)
 
 ## Apps
 
